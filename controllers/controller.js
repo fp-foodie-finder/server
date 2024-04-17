@@ -1,9 +1,11 @@
+const { ObjectId } = require("bson");
 const { comparePassword, hashPassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const User = require("../models/user");
+const Post = require("../models/post");
 
 class Controller {
-  // Controller Authentication
+  // Controller Login/Register
   static async register(req, res, next) {
     try {
       const { fullname, email, password, username, preference } = req.body;
@@ -44,7 +46,6 @@ class Controller {
       const { email, password } = req.body;
 
       if (!email) throw { name: "EmailRequired" };
-      
       if (!password) throw { name: "PassRequired" };
       
       const user = await User.findByEmail(email);
@@ -57,6 +58,33 @@ class Controller {
       const token = signToken(payload);
 
       res.status(200).json({ message: "login success", token });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Controller Post
+  static async createPost(req, res, next) {
+    try {
+      const { imageUrl, description } = req.body;
+      const authorId = new ObjectId(String(req.user._id));
+
+      if (!imageUrl) throw { name: "ImageUrlRequired" };
+      if (!description) throw { name: "DescriptionRequired" };
+      if (!authorId) throw { name: "InvalidToken" };
+
+      const newPost = {
+        imageUrl,
+        description,
+        authorId,
+        like: [],
+        dislike: [],
+      };
+
+      const result = await Post.createOne(newPost);
+      newPost._id = result.insertedId;
+
+      res.status(200).json({ message: "Post created", newPost });
     } catch (error) {
       next(error);
     }
