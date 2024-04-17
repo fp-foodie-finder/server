@@ -9,5 +9,6 @@ router.post("/login", Controller.login)
 
 // CRUD Post
 router.post("/post", authentication, Controller.createPost);
+router.get("/post", authentication, Controller.listPost);
 
 module.exports = router
