@@ -7,4 +7,7 @@ const router = express.Router()
 router.post("/register", Controller.register);
 router.post("/login", Controller.login)
 
+// CRUD Post
+router.post("/post", authentication, Controller.createPost);
+
 module.exports = router

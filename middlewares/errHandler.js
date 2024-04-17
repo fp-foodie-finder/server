@@ -15,6 +15,12 @@ const errHandler = (err, req, res, next) => {
     case "PreferRequired":
       res.status(400).json({ message: "Preference is required" });
       break;
+    case "ImageUrlRequired":
+      res.status(400).json({ message: "Image URL is required" });
+      break;
+    case "DescriptionRequired":
+      res.status(400).json({ message: "Description is required" });
+      break;
     case "FormatEmail":
       res
         .status(400)
