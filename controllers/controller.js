@@ -37,7 +37,7 @@ class Controller {
       const user = await User.createOne(newUser);
       newUser._id = user.insertedId;
 
-      res.status(201).json({ user });
+      res.status(201).json({ message: "user created" });
     } catch (error) {
       next(error);
     }
@@ -111,6 +111,17 @@ class Controller {
       const posts = await Post.findAll();
 
       res.status(200).json(posts);
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async postByUserId(req, res, next) {
+    try {
+      const {id} = req.params;
+
+      const result = await User.findPostById(id);
+
+      res.status(200).json(result);
     } catch (error) {
       next(error);
     }

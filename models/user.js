@@ -24,6 +24,34 @@ class User {
     });
     return user;
   }
+
+  static async findPostById(id) {
+    const agg = [
+      {
+        $match: {
+          _id: new ObjectId(String(id))
+        },
+      },
+      {
+        $lookup: {
+          from: "posts",
+          localField: "_id",
+          foreignField: "authorId",
+          as: "post",
+        },
+      },
+      {
+        $unwind: {
+          path: "$post",
+          preserveNullAndEmptyArrays: true,
+        }
+      }
+    ];
+    const cursor = this.userCollection().aggregate(agg);
+    const result = await cursor.toArray();
+
+    return result;
+  }
 }
 
 module.exports = User;
