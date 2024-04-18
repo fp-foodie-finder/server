@@ -165,6 +165,42 @@ class Controller {
       next(error);
     }
   }
+
+  // AI Controller
+  static async ai(req, res, next) {
+    const { input } = req.body;
+    const options = {
+      method: "POST",
+      url: "https://open-ai21.p.rapidapi.com/conversationgpt35",
+      headers: {
+        "content-type": "application/json",
+        "X-RapidAPI-Key": process.env.AI_KEY,
+        "X-RapidAPI-Host": process.env.AI_HOST,
+      },
+      data: {
+        messages: [
+          {
+            role: "user",
+            content: input,
+          },
+        ],
+        web_access: false,
+        system_prompt: "",
+        temperature: 0.9,
+        top_k: 5,
+        top_p: 0.9,
+        max_tokens: 256,
+      },
+    };
+    try {
+      const {
+        data: { result },
+      } = await axios.request(options);
+      res.status(200).json({ result });
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;

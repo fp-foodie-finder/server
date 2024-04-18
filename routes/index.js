@@ -21,4 +21,7 @@ router.get("/user", authentication, Controller.userProfile);
 // Google Maps API
 router.post("/maps", Controller.maps);
 
+// AI API
+router.post("/ai", Controller.ai);
+
 module.exports = router;
