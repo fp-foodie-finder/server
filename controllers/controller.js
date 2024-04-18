@@ -3,6 +3,7 @@ const { comparePassword, hashPassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const User = require("../models/user");
 const Post = require("../models/post");
+const redis = require("../config/redis");
 
 class Controller {
   // Controller Login/Register
@@ -30,7 +31,7 @@ class Controller {
         username,
         email,
         password: hashPassword(password),
-        preference
+        preference,
       };
 
       const user = await User.createOne(newUser);
@@ -47,13 +48,13 @@ class Controller {
 
       if (!email) throw { name: "EmailRequired" };
       if (!password) throw { name: "PassRequired" };
-      
+
       const user = await User.findByEmail(email);
       if (!user) throw { name: "InvalidLogin" };
-      
+
       const checkPass = comparePassword(password, user.password);
       if (!checkPass) throw { name: "InvalidLogin" };
-      
+
       const payload = { id: user._id };
       const token = signToken(payload);
 
@@ -84,7 +85,32 @@ class Controller {
       const result = await Post.createOne(newPost);
       newPost._id = result.insertedId;
 
+      // await redis.del("posts");
+
       res.status(200).json({ message: "Post created", newPost });
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async listPost(req, res, next) {
+    // try {
+    //   const redisPost = await redis.get("posts");
+    //   if (redisPost) {
+    //     return JSON.parse(redisPost);
+    //   } else {
+    //     const posts = await Post.findAll();
+    //     await redis.set("posts", JSON.stringify(posts));
+
+    //     res.status(200).json(posts);
+    //   }
+    // } catch (error) {
+    //   next(error);
+    // }
+
+    try {
+      const posts = await Post.findAll();
+
+      res.status(200).json(posts);
     } catch (error) {
       next(error);
     }
