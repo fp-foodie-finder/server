@@ -19,13 +19,12 @@ class Controller {
   // Controller Login/Register
   static async register(req, res, next) {
     try {
-      const { fullname, email, password, username, preference } = req.body;
+      const { fullname, email, password, username } = req.body;
 
       if (!fullname) throw { name: "FullNameRequired" };
       if (!username) throw { name: "UsernameRequired" };
       if (!email) throw { name: "EmailRequired" };
       if (!password) throw { name: "PassRequired" };
-      if (!preference) throw { name: "PreferRequired" };
 
       const validEmail =
         /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/;
@@ -69,6 +68,25 @@ class Controller {
       const token = signToken(payload);
 
       res.status(200).json({ message: "login success", token });
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async updatePreference(req, res, next) {
+    try {
+      const userId = req.user._id
+      const { preference } = req.body;
+
+      if (!preference) throw { name: "PreferRequired" };
+
+      const newPrefer = {
+        preference,
+      };
+
+      await User.updatePrefer(userId, newPrefer);
+
+      res.status(201).json({newPrefer});
+      
     } catch (error) {
       next(error);
     }
@@ -127,6 +145,17 @@ class Controller {
         await redis.set("posts", JSON.stringify(posts));
         res.status(200).json(posts);
       }
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async postByUserId(req, res, next) {
+    try {
+      const {id} = req.params;
+
+      const result = await User.findPostById(id);
+
+      res.status(200).json(result);
     } catch (error) {
       next(error);
     }

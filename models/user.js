@@ -20,8 +20,17 @@ class User {
 
   static async findByEmail(email) {
     const user = await this.userCollection().findOne({
-      email: email
+      email: email,
     });
+    return user;
+  }
+
+  static async updatePrefer(userId, payload) {
+    const user = await this.userCollection().updateOne(
+      { _id: new ObjectId(String(userId)) },
+      { $set: payload }
+    );
+
     return user;
   }
 
@@ -29,7 +38,7 @@ class User {
     const agg = [
       {
         $match: {
-          _id: new ObjectId(String(id))
+          _id: new ObjectId(String(id)),
         },
       },
       {
@@ -44,8 +53,8 @@ class User {
         $unwind: {
           path: "$post",
           preserveNullAndEmptyArrays: true,
-        }
-      }
+        },
+      },
     ];
     const cursor = this.userCollection().aggregate(agg);
     const result = await cursor.toArray();
