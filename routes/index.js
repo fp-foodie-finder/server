@@ -15,6 +15,9 @@ router.post("/post", authentication, Controller.createPost);
 router.get("/post", authentication, Controller.listPost);
 router.get("/post/:id", authentication, Controller.postByUserId);
 
+// CRUD User
+router.get("/user", authentication, Controller.userProfile);
+
 // Google Maps API
 router.post("/maps", Controller.maps);
 
