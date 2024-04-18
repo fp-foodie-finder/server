@@ -18,4 +18,7 @@ router.get("/post/:id", authentication, Controller.postByUserId);
 // Google Maps API
 router.post("/maps", Controller.maps);
 
+// AI API
+router.post("/ai", Controller.ai);
+
 module.exports = router;
