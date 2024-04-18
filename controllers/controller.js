@@ -46,7 +46,7 @@ class Controller {
       const user = await User.createOne(newUser);
       newUser._id = user.insertedId;
 
-      res.status(201).json({ user });
+      res.status(201).json({ message: "user created" });
     } catch (error) {
       next(error);
     }
@@ -142,6 +142,17 @@ class Controller {
     try {
       const { data } = await axios.request(options);
       res.status(200).json({ data });
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async postByUserId(req, res, next) {
+    try {
+      const {id} = req.params;
+
+      const result = await User.findPostById(id);
+
+      res.status(200).json(result);
     } catch (error) {
       next(error);
     }

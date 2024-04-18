@@ -13,6 +13,7 @@ router.post("/login", Controller.login);
 // CRUD Post
 router.post("/post", authentication, Controller.createPost);
 router.get("/post", authentication, Controller.listPost);
+router.get("/post/:id", authentication, Controller.postByUserId);
 
 // Google Maps API
 router.post("/maps", Controller.maps);
