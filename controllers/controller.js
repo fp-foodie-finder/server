@@ -102,27 +102,27 @@ class Controller {
     }
   }
   static async listPost(req, res, next) {
-    // try {
-    //   const redisPost = await redis.get("posts");
-    //   if (redisPost) {
-    //     return JSON.parse(redisPost);
-    //   } else {
-    //     const posts = await Post.findAll();
-    //     await redis.set("posts", JSON.stringify(posts));
-
-    //     res.status(200).json(posts);
-    //   }
-    // } catch (error) {
-    //   next(error);
-    // }
-
     try {
-      const posts = await Post.findAll();
-
-      res.status(200).json(posts);
+      const redisPost = await redis.get("posts");
+      if (redisPost) {
+        console.log("from redis");
+        const data = JSON.parse(redisPost);
+        res.status(200).json(data);
+      } else {
+        console.log("from mongodb");
+        const posts = await Post.findAll();
+        await redis.set("posts", JSON.stringify(posts));
+        res.status(200).json(posts);
+      }
     } catch (error) {
       next(error);
     }
+    // try {
+    //   const posts = await Post.findAll();
+    //   res.status(200).json(posts);
+    // } catch (error) {
+    //   next(error);
+    // }
   }
   // Controller Maps
   static async maps(req, res, next) {
