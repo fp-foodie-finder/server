@@ -15,6 +15,7 @@ class Controller {
       next(error);
     }
   }
+
   // Controller Login/Register
   static async register(req, res, next) {
     try {
@@ -73,6 +74,19 @@ class Controller {
     }
   }
 
+  // Controller User
+  static async userProfile(req, res, next) {
+    try {
+      const userId = req.user._id
+
+      const result = await User.findPostById(userId);
+
+      res.status(200).json(result);
+    } catch (error) {
+      next(error);
+    }
+  }
+
   // Controller Post
   static async createPost(req, res, next) {
     try {
@@ -94,7 +108,7 @@ class Controller {
       const result = await Post.createOne(newPost);
       newPost._id = result.insertedId;
 
-      // await redis.del("posts");
+      await redis.del("posts");
 
       res.status(200).json({ message: "Post created", newPost });
     } catch (error) {
@@ -109,7 +123,6 @@ class Controller {
         const data = JSON.parse(redisPost);
         res.status(200).json(data);
       } else {
-        console.log("from mongodb");
         const posts = await Post.findAll();
         await redis.set("posts", JSON.stringify(posts));
         res.status(200).json(posts);
@@ -117,12 +130,6 @@ class Controller {
     } catch (error) {
       next(error);
     }
-    // try {
-    //   const posts = await Post.findAll();
-    //   res.status(200).json(posts);
-    // } catch (error) {
-    //   next(error);
-    // }
   }
 
   // Controller Maps
@@ -179,17 +186,6 @@ class Controller {
         data: { result },
       } = await axios.request(options);
       res.status(200).json({ result });
-    } catch (error) {
-      next(error);
-    }
-  }
-  static async postByUserId(req, res, next) {
-    try {
-      const { id } = req.params;
-
-      const result = await User.findPostById(id);
-
-      res.status(200).json(result);
     } catch (error) {
       next(error);
     }

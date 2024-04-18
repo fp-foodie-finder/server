@@ -1,7 +1,6 @@
 const { verifyToken } = require("../helpers/jwt");
 const User = require("../models/user");
 
-
 const authentication = async (req, res, next) => {
   try {
     // Check apakah user membawa token atau tidak
