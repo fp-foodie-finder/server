@@ -4,8 +4,17 @@ const { signToken } = require("../helpers/jwt");
 const User = require("../models/user");
 const Post = require("../models/post");
 const redis = require("../config/redis");
+const axios = require("axios");
 
 class Controller {
+  // Controller Home
+  static async home(req, res, next) {
+    try {
+      res.status(200).json({ message: "Welcome to our api" });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Controller Login/Register
   static async register(req, res, next) {
     try {
@@ -111,6 +120,28 @@ class Controller {
       const posts = await Post.findAll();
 
       res.status(200).json(posts);
+    } catch (error) {
+      next(error);
+    }
+  }
+  // Controller Maps
+  static async maps(req, res, next) {
+    const { textQuery } = req.body;
+    const options = {
+      method: "POST",
+      url: `https://places.googleapis.com/v1/places:searchText`,
+      headers: {
+        "X-Goog-Api-Key": process.env.GOOGLE_MAPS_API,
+        "X-Goog-FieldMask":
+          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos",
+      },
+      data: {
+        textQuery,
+      },
+    };
+    try {
+      const { data } = await axios.request(options);
+      res.status(200).json({ data });
     } catch (error) {
       next(error);
     }
