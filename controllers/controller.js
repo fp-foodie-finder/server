@@ -5,6 +5,14 @@ const User = require("../models/user");
 const Post = require("../models/post");
 
 class Controller {
+  // Controller Home
+  static async home(req, res, next) {
+    try {
+      res.status(200).json({ message: "Welcome to our api" });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Controller Login/Register
   static async register(req, res, next) {
     try {
@@ -30,7 +38,7 @@ class Controller {
         username,
         email,
         password: hashPassword(password),
-        preference
+        preference,
       };
 
       const user = await User.createOne(newUser);
@@ -47,13 +55,13 @@ class Controller {
 
       if (!email) throw { name: "EmailRequired" };
       if (!password) throw { name: "PassRequired" };
-      
+
       const user = await User.findByEmail(email);
       if (!user) throw { name: "InvalidLogin" };
-      
+
       const checkPass = comparePassword(password, user.password);
       if (!checkPass) throw { name: "InvalidLogin" };
-      
+
       const payload = { id: user._id };
       const token = signToken(payload);
 
