@@ -85,6 +85,8 @@ class Controller {
       const result = await Post.createOne(newPost);
       newPost._id = result.insertedId;
 
+      // await redis.del("posts");
+
       res.status(200).json({ message: "Post created", newPost });
     } catch (error) {
       next(error);
