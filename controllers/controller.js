@@ -3,6 +3,7 @@ const { comparePassword, hashPassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
 const User = require("../models/user");
 const Post = require("../models/post");
+const axios = require("axios");
 
 class Controller {
   // Controller Home
@@ -93,6 +94,28 @@ class Controller {
       newPost._id = result.insertedId;
 
       res.status(200).json({ message: "Post created", newPost });
+    } catch (error) {
+      next(error);
+    }
+  }
+  // Controller Maps
+  static async maps(req, res, next) {
+    const { textQuery } = req.body;
+    const options = {
+      method: "POST",
+      url: `https://places.googleapis.com/v1/places:searchText`,
+      headers: {
+        "X-Goog-Api-Key": process.env.GOOGLE_MAPS_API,
+        "X-Goog-FieldMask":
+          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos",
+      },
+      data: {
+        textQuery,
+      },
+    };
+    try {
+      const { data } = await axios.request(options);
+      res.status(200).json({ data });
     } catch (error) {
       next(error);
     }
