@@ -40,7 +40,7 @@ class Controller {
         username,
         email,
         password: hashPassword(password),
-        preference: ""
+        preference: "",
       };
 
       const user = await User.createOne(newUser);
@@ -74,7 +74,7 @@ class Controller {
   }
   static async updatePreference(req, res, next) {
     try {
-      const userId = req.user._id
+      const userId = req.user._id;
       const { preference } = req.body;
 
       if (!preference) throw { name: "PreferRequired" };
@@ -85,8 +85,7 @@ class Controller {
 
       await User.updatePrefer(userId, newPrefer);
 
-      res.status(201).json({newPrefer});
-      
+      res.status(201).json({ newPrefer });
     } catch (error) {
       next(error);
     }
@@ -95,7 +94,7 @@ class Controller {
   // Controller User
   static async userProfile(req, res, next) {
     try {
-      const userId = req.user._id
+      const userId = req.user._id;
 
       const result = await User.findPostById(userId);
 
@@ -122,7 +121,7 @@ class Controller {
         like: [],
         dislike: [],
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
       };
 
       const result = await Post.createOne(newPost);
@@ -153,7 +152,7 @@ class Controller {
   }
   static async postByUserId(req, res, next) {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
 
       const result = await User.findPostById(id);
 
@@ -164,12 +163,10 @@ class Controller {
   }
   static async likePost(req, res, next) {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
       const username = req.user.username;
 
-      await Post.updateOne(
-        id, { like: [username] }
-      )
+      await Post.updateOne(id, { like: [username] });
       await redis.del("posts");
 
       res.status(200).json({ message: "Post liked" });
@@ -179,12 +176,10 @@ class Controller {
   }
   static async unlikePost(req, res, next) {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
       const username = req.user.username;
 
-      await Post.updateUnlike(
-        id, { like: [username] }
-      )
+      await Post.updateUnlike(id, { like: [username] });
       await redis.del("posts");
 
       res.status(200).json({ message: "Post unliked" });
@@ -194,12 +189,10 @@ class Controller {
   }
   static async dislikePost(req, res, next) {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
       const username = req.user.username;
 
-      await Post.updateOne(
-        id, { dislike: [username] }
-      )
+      await Post.updateOne(id, { dislike: [username] });
       await redis.del("posts");
 
       res.status(200).json({ message: "Post disliked" });
@@ -209,7 +202,7 @@ class Controller {
   }
   static async deletePost(req, res, next) {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
 
       await Post.deletePost(id);
       await redis.del("posts");
@@ -217,7 +210,7 @@ class Controller {
       res.status(200).json({ message: "Post deleted" });
     } catch (error) {
       next(error);
-    } 
+    }
   }
 
   // Controller Maps
@@ -229,7 +222,7 @@ class Controller {
       headers: {
         "X-Goog-Api-Key": process.env.GOOGLE_MAPS_API,
         "X-Goog-FieldMask":
-          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos",
+          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos,places.rating",
       },
       data: {
         textQuery,
