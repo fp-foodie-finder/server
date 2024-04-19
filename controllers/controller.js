@@ -121,6 +121,8 @@ class Controller {
         authorId,
         like: [],
         dislike: [],
+        createdAt: new Date(),
+        updatedAt: new Date()
       };
 
       const result = await Post.createOne(newPost);
