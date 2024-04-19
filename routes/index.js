@@ -14,7 +14,8 @@ router.post("/login", Controller.login);
 router.post("/post", authentication, Controller.createPost);
 router.get("/post", authentication, Controller.listPost);
 router.get("/post/:id", authentication, Controller.postByUserId);
-router.put("/post/:id", authentication, Controller.likePost);
+router.put("/like/:id", authentication, Controller.likePost);
+router.put("/unlike/:id", authentication, Controller.unlikePost);
 
 // CRUD User
 router.get("/user", authentication, Controller.userProfile);

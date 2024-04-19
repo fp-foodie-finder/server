@@ -175,6 +175,21 @@ class Controller {
       next(error);
     }
   }
+  static async unlikePost(req, res, next) {
+    try {
+      const {id} = req.params;
+      const username = req.user.username;
+
+      await Post.updateUnlike(
+        id, { like: [username] }
+      )
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post unliked" });
+    } catch (error) {
+      next(error);
+    }
+  }
 
   // Controller Maps
   static async maps(req, res, next) {
