@@ -1,4 +1,5 @@
 const { database } = require("../config/mongo");
+const { ObjectId } = require("mongodb");
 
 class Post {
   static postCollection() {
@@ -29,14 +30,22 @@ class Post {
         $unwind: {
           path: "$author",
           preserveNullAndEmptyArrays: true,
-        }
-      }
+        },
+      },
     ];
 
     const cursor = this.postCollection().aggregate(agg);
     const result = await cursor.toArray();
 
     return result;
+  }
+
+  static async updateOne(id, payload) {
+    const post = await this.postCollection().updateOne(
+      { _id: new ObjectId(String(id)) },
+      { $push: payload }
+    );
+    return post
   }
 }
 

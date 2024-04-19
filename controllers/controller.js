@@ -40,7 +40,7 @@ class Controller {
         username,
         email,
         password: hashPassword(password),
-        preference,
+        preference: ""
       };
 
       const user = await User.createOne(newUser);
@@ -156,6 +156,21 @@ class Controller {
       const result = await User.findPostById(id);
 
       res.status(200).json(result);
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async likePost(req, res, next) {
+    try {
+      const {id} = req.params;
+      const username = req.user.username;
+
+      await Post.updateOne(
+        id, { like: [username] }
+      )
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post liked" });
     } catch (error) {
       next(error);
     }
