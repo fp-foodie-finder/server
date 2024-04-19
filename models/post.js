@@ -47,6 +47,14 @@ class Post {
     );
     return post
   }
+
+  static async updateUnlike(id, payload) {
+    const post = await this.postCollection().updateOne(
+      { _id: new ObjectId(String(id)) },
+      { $pull: payload }
+    );
+    return post
+  }
 }
 
 module.exports = Post;
