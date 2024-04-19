@@ -205,6 +205,18 @@ class Controller {
       next(error);
     }
   }
+  static async deletePost(req, res, next) {
+    try {
+      const {id} = req.params;
+
+      await Post.deletePost(id);
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post deleted" });
+    } catch (error) {
+      next(error);
+    } 
+  }
 
   // Controller Maps
   static async maps(req, res, next) {
