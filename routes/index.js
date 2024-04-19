@@ -17,6 +17,7 @@ router.get("/post/:id", authentication, Controller.postByUserId);
 router.put("/like/:id", authentication, Controller.likePost);
 router.put("/unlike/:id", authentication, Controller.unlikePost);
 router.put("/dislike/:id", authentication, Controller.dislikePost);
+router.delete("/post/:id", authentication, Controller.deletePost);
 
 // CRUD User
 router.get("/user", authentication, Controller.userProfile);

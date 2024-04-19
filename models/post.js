@@ -55,6 +55,14 @@ class Post {
     );
     return post
   }
+
+  static async deletePost(id) {
+    const post = await this.postCollection().deleteOne({
+      _id: new ObjectId(String(id))
+    });
+
+    return post;
+  }
 }
 
 module.exports = Post;

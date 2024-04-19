@@ -121,6 +121,8 @@ class Controller {
         authorId,
         like: [],
         dislike: [],
+        createdAt: new Date(),
+        updatedAt: new Date()
       };
 
       const result = await Post.createOne(newPost);
@@ -204,6 +206,18 @@ class Controller {
     } catch (error) {
       next(error);
     }
+  }
+  static async deletePost(req, res, next) {
+    try {
+      const {id} = req.params;
+
+      await Post.deletePost(id);
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post deleted" });
+    } catch (error) {
+      next(error);
+    } 
   }
 
   // Controller Maps
