@@ -190,6 +190,21 @@ class Controller {
       next(error);
     }
   }
+  static async dislikePost(req, res, next) {
+    try {
+      const {id} = req.params;
+      const username = req.user.username;
+
+      await Post.updateOne(
+        id, { dislike: [username] }
+      )
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post disliked" });
+    } catch (error) {
+      next(error);
+    }
+  }
 
   // Controller Maps
   static async maps(req, res, next) {
