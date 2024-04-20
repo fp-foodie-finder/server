@@ -19,6 +19,9 @@ router.put("/unlike/:id", authentication, Controller.unlikePost);
 router.put("/dislike/:id", authentication, Controller.dislikePost);
 router.delete("/post/:id", authentication, Controller.deletePost);
 
+// CRUD Favorite
+router.post("/favorite/:idx", authentication, Controller.addFavorite);
+
 // CRUD User
 router.get("/user", authentication, Controller.userProfile);
 router.put("/user/:id", authentication, Controller.updatePreference);
