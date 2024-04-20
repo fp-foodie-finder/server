@@ -287,6 +287,14 @@ class Controller {
     }
   }
 
+      await Favorite.deleteFavorite(id);
+
+      res.status(200).json({ message: "Favorite deleted" });
+    } catch (error) {
+      next(error);
+    }
+  }
+  
   // Controller Maps
   static async maps(req, res, next) {
     const { textQuery } = req.body;
