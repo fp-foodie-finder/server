@@ -5,6 +5,7 @@ const User = require("../models/user");
 const Post = require("../models/post");
 const redis = require("../config/redis");
 const axios = require("axios");
+const Favorite = require("../models/favorite");
 
 class Controller {
   // Controller Home
@@ -213,6 +214,58 @@ class Controller {
     }
   }
 
+  // Controller Favorite
+  static async addFavorite(req, res, next) {
+    const { textQuery } = req.body;
+    const { idx } = req.params;
+
+    const options = {
+      method: "POST",
+      url: `https://places.googleapis.com/v1/places:searchText`,
+      headers: {
+        "X-Goog-Api-Key": process.env.GOOGLE_MAPS_API,
+        "X-Goog-FieldMask":
+          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos,places.rating",
+      },
+      data: {
+        textQuery,
+      },
+    };
+    try {
+      const { data } = await axios.request(options);
+      const userId = new ObjectId(String(req.user._id));
+
+      if (!data.places || data.places.length === 0) {
+        throw { name: "NotFound" };
+      }
+
+      if (idx < 0 || idx >= data.places.length) {
+        throw { name: "NotFound" };
+      }
+
+      const selectedPlace = data.places[idx];
+      const dataAddress = selectedPlace.formattedAddress;
+      const dataRating = selectedPlace.rating;
+      const dataName = selectedPlace.displayName.text;
+      const dataImageUrl = selectedPlace.photos[0].name; 
+
+      const newFavorite = {
+        userId,
+        address: dataAddress,
+        rating: dataRating,
+        name: dataName,
+        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=AIzaSyA5TgEC55u00aGOvmvgCS2sDxQwi5JiuYY&maxWidthPx=2880`,
+      };
+
+      const fav = await Favorite.addFavorite(newFavorite);
+      newFavorite._id = fav.insertedId;
+
+      res.status(200).json({ message: "Favorite added", newFavorite });
+    } catch (error) {
+      next(error);
+    }
+  }
+
   // Controller Maps
   static async maps(req, res, next) {
     const { textQuery } = req.body;
@@ -222,7 +275,7 @@ class Controller {
       headers: {
         "X-Goog-Api-Key": process.env.GOOGLE_MAPS_API,
         "X-Goog-FieldMask":
-          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos",
+          "places.displayName,places.formattedAddress,places.priceLevel,places.googleMapsUri,places.photos,places.rating",
       },
       data: {
         textQuery,
