@@ -265,6 +265,16 @@ class Controller {
       next(error);
     }
   }
+  static async listFavorite(req, res, next) {
+    try {
+      const userId = req.user._id;
+      const favorite = await Favorite.listFavorite(userId);
+
+      res.status(200).json(favorite);
+    } catch (error) {
+      next(error);
+    }
+  }
 
   // Controller Maps
   static async maps(req, res, next) {

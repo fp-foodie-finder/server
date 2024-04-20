@@ -21,6 +21,7 @@ router.delete("/post/:id", authentication, Controller.deletePost);
 
 // CRUD Favorite
 router.post("/favorite/:idx", authentication, Controller.addFavorite);
+router.get("/favorite", authentication, Controller.listFavorite);
 
 // CRUD User
 router.get("/user", authentication, Controller.userProfile);
