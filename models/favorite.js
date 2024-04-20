@@ -38,6 +38,14 @@ class Favorite {
 
     return result;
   }
+
+  static async deleteFavorite(id) {
+    const result = await this.favoriteCollection().deleteOne({
+      _id: new ObjectId(String(id))
+    });
+
+    return result;
+  }
 }
 
 module.exports = Favorite;
