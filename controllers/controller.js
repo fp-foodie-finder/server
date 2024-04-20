@@ -68,7 +68,7 @@ class Controller {
       const payload = { id: user._id };
       const token = signToken(payload);
 
-      res.status(200).json({ message: "login success", token });
+      res.status(200).json({ message: "login success", token, user });
     } catch (error) {
       next(error);
     }
@@ -247,7 +247,7 @@ class Controller {
       const dataAddress = selectedPlace.formattedAddress;
       const dataRating = selectedPlace.rating;
       const dataName = selectedPlace.displayName.text;
-      const dataImageUrl = selectedPlace.photos[0].name; 
+      const dataImageUrl = selectedPlace.photos[0].name;
 
       const newFavorite = {
         userId,
@@ -261,6 +261,27 @@ class Controller {
       newFavorite._id = fav.insertedId;
 
       res.status(200).json({ message: "Favorite added", newFavorite });
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async listFavorite(req, res, next) {
+    try {
+      const userId = req.user._id;
+      const favorite = await Favorite.listFavorite(userId);
+
+      res.status(200).json(favorite);
+    } catch (error) {
+      next(error);
+    }
+  }
+  static async deleteFavorite(req, res, next) {
+    try {
+      const { id } = req.params;
+
+      await Favorite.deleteFavorite(id);
+
+      res.status(200).json({ message: "Favorite deleted" });
     } catch (error) {
       next(error);
     }
