@@ -21,7 +21,7 @@ router.put("/like/:id", authentication, Controller.likePost);
 router.put("/unlike/:id", authentication, Controller.unlikePost);
 router.put("/dislike/:id", authentication, Controller.dislikePost);
 router.delete("/post/:id", authentication, Controller.deletePost);
-router.post("/favorite/:id", authentication, Controller.addFavorite);
+router.post("/favorite/:idx", authentication, Controller.addFavorite);
 router.delete("/favorite/:id", authentication, Controller.deleteFavorite);
 router.put("/user/:id", authentication, Controller.updatePreference);
 
