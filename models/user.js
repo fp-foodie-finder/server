@@ -46,13 +46,7 @@ class User {
           from: "posts",
           localField: "_id",
           foreignField: "authorId",
-          as: "post",
-        },
-      },
-      {
-        $unwind: {
-          path: "$post",
-          preserveNullAndEmptyArrays: true,
+          as: "posts",
         },
       },
       {
