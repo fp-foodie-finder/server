@@ -68,7 +68,7 @@ class Controller {
       const payload = { id: user._id };
       const token = signToken(payload);
 
-      res.status(200).json({ message: "login success", token });
+      res.status(200).json({ message: "login success", token, user: {_id: user._id}});
     } catch (error) {
       next(error);
     }

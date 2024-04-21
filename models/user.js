@@ -19,9 +19,9 @@ class User {
   }
 
   static async findByEmail(email) {
-    const user = await this.userCollection().findOne({
-      email: email,
-    });
+    const user = await this.userCollection().findOne(
+      { email: email },
+    );
     return user;
   }
 
@@ -57,9 +57,9 @@ class User {
       },
       {
         $project: {
-          password: 0 
-        }
-      }
+          password: 0,
+        },
+      },
     ];
     const cursor = this.userCollection().aggregate(agg);
     const result = await cursor.toArray();
