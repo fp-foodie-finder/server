@@ -160,6 +160,8 @@ class Controller {
 
       const result = await User.findPostById(id);
 
+      await redis.del("posts");
+
       res.status(200).json(result);
     } catch (error) {
       next(error);
