@@ -43,7 +43,7 @@ class Controller {
         password: hashPassword(password),
         preference: "",
       };
-
+      
       const user = await User.createOne(newUser);
       newUser._id = user.insertedId;
 
@@ -68,7 +68,7 @@ class Controller {
       const payload = { id: user._id };
       const token = signToken(payload);
 
-      res.status(200).json({ message: "login success", token, user });
+      res.status(200).json({ message: "login success", token });
     } catch (error) {
       next(error);
     }
@@ -141,10 +141,13 @@ class Controller {
       if (redisPost) {
         console.log("from redis");
         const data = JSON.parse(redisPost);
+
+        res.setHeader('Cache-Control', 'no-store');
         res.status(200).json(data);
       } else {
         const posts = await Post.findAll();
         await redis.set("posts", JSON.stringify(posts));
+
         res.status(200).json(posts);
       }
     } catch (error) {

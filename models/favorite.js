@@ -32,6 +32,11 @@ class Favorite {
           preserveNullAndEmptyArrays: true,
         },
       },
+      {
+        $project: {
+          "user.password": 0, 
+        },
+      },
     ];
     const cursor = this.favoriteCollection().aggregate(agg);
     const result = await cursor.toArray();

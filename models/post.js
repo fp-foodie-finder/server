@@ -32,6 +32,11 @@ class Post {
           preserveNullAndEmptyArrays: true,
         },
       },
+      {
+        $project: {
+          "author.password": 0, 
+        },
+      },
     ];
 
     const cursor = this.postCollection().aggregate(agg);

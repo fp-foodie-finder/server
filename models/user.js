@@ -55,6 +55,11 @@ class User {
           preserveNullAndEmptyArrays: true,
         },
       },
+      {
+        $project: {
+          password: 0 
+        }
+      }
     ];
     const cursor = this.userCollection().aggregate(agg);
     const result = await cursor.toArray();
