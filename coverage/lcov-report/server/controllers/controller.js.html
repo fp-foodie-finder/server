@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.03% </span>
+                <span class="strong">81.06% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>141/162</span>
+                <span class='fraction'>137/169</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">72.72% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>33/44</span>
+                <span class='fraction'>32/44</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">94.44% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>17/17</span>
+                <span class='fraction'>17/18</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">89.65% </span>
+                <span class="strong">82.89% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>130/145</span>
+                <span class='fraction'>126/152</span>
             </div>
         
             
@@ -408,7 +408,20 @@
 <a name='L343'></a><a href='#L343'>343</a>
 <a name='L344'></a><a href='#L344'>344</a>
 <a name='L345'></a><a href='#L345'>345</a>
-<a name='L346'></a><a href='#L346'>346</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L346'></a><a href='#L346'>346</a>
+<a name='L347'></a><a href='#L347'>347</a>
+<a name='L348'></a><a href='#L348'>348</a>
+<a name='L349'></a><a href='#L349'>349</a>
+<a name='L350'></a><a href='#L350'>350</a>
+<a name='L351'></a><a href='#L351'>351</a>
+<a name='L352'></a><a href='#L352'>352</a>
+<a name='L353'></a><a href='#L353'>353</a>
+<a name='L354'></a><a href='#L354'>354</a>
+<a name='L355'></a><a href='#L355'>355</a>
+<a name='L356'></a><a href='#L356'>356</a>
+<a name='L357'></a><a href='#L357'>357</a>
+<a name='L358'></a><a href='#L358'>358</a>
+<a name='L359'></a><a href='#L359'>359</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -442,7 +455,7 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -450,12 +463,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -604,6 +617,19 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -785,9 +811,9 @@ class Controller {
       }
 &nbsp;
       const findEmail = await User.findByEmail(email);
-      if (findEmail) throw { name: "ExistEmail" };
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (findEmail) throw { name: "ExistEmail" };
 &nbsp;
-      const newUser = {
+      const newUser = <span class="cstat-no" title="statement not covered" >{</span>
         fullname,
         username,
         email,
@@ -795,10 +821,10 @@ class Controller {
         preference: "",
       };
 &nbsp;
-      const user = await User.createOne(newUser);
-      newUser._id = user.insertedId;
+      const user = <span class="cstat-no" title="statement not covered" >await User.createOne(newUser);</span>
+<span class="cstat-no" title="statement not covered" >      newUser._id = user.insertedId;</span>
 &nbsp;
-      res.status(201).json({ message: "user created" });
+<span class="cstat-no" title="statement not covered" >      res.status(201).json({ message: "user created" });</span>
     } catch (error) {
       next(error);
     }
@@ -951,6 +977,19 @@ class Controller {
       next(error);
     }
   }
+<span class="fstat-no" title="function not covered" >  st</span>atic async undislikePost(req, res, next) {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      const { id } = <span class="cstat-no" title="statement not covered" >req.params;</span>
+      const username = <span class="cstat-no" title="statement not covered" >req.user.username;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      await Post.updateUnlike(id, { dislike: [username] });</span>
+<span class="cstat-no" title="statement not covered" >      await redis.del("posts");</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      res.status(200).json({ message: "Post undisliked" });</span>
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >      next(error);</span>
+    }
+  }
   static async deletePost(req, res, next) {
     try {
       const { id } = req.params;
@@ -1005,7 +1044,7 @@ class Controller {
         address: dataAddress,
         rating: dataRating,
         name: dataName,
-        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&amp;maxWidthPx=2880`,
+        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&amp;maxWidthPx=360`,
       };
 &nbsp;
       const fav = <span class="cstat-no" title="statement not covered" >await Favorite.addFavorite(newFavorite);</span>
@@ -1105,7 +1144,7 @@ module.exports = Controller;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-04-22T10:27:04.269Z
+                at 2024-04-22T17:21:28.910Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
