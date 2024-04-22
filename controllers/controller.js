@@ -250,7 +250,7 @@ class Controller {
         address: dataAddress,
         rating: dataRating,
         name: dataName,
-        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&maxWidthPx=2880`,
+        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&maxWidthPx=360`,
       };
 
       const fav = await Favorite.addFavorite(newFavorite);
