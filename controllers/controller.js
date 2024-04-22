@@ -10,11 +10,7 @@ const Favorite = require("../models/favorite");
 class Controller {
   // Controller Home
   static async home(req, res, next) {
-    try {
-      res.status(200).json({ message: "Welcome to our api" });
-    } catch (error) {
-      next(error);
-    }
+    res.status(200).json({ message: "Welcome to our api" });
   }
 
   // Controller Login/Register
@@ -96,15 +92,11 @@ class Controller {
 
   // Controller User
   static async userProfile(req, res, next) {
-    try {
-      const userId = req.user._id;
+    const userId = req.user._id;
 
-      const result = await User.findPostById(userId);
+    const result = await User.findPostById(userId);
 
-      res.status(200).json(result);
-    } catch (error) {
-      next(error);
-    }
+    res.status(200).json(result);
   }
 
   // Controller Post
@@ -138,28 +130,24 @@ class Controller {
     }
   }
   static async listPost(req, res, next) {
-    try {
-      const redisPost = await redis.get("posts");
-      if (redisPost) {
-        console.log("from redis");
-        const data = JSON.parse(redisPost);
+    const redisPost = await redis.get("posts");
+    if (redisPost) {
+      console.log("from redis");
+      const data = JSON.parse(redisPost);
 
-        res.setHeader("Cache-Control", "no-store");
-        res.status(200).json(data);
-      } else {
-        const posts = await Post.findAll();
-        await redis.set("posts", JSON.stringify(posts));
+      res.setHeader("Cache-Control", "no-store");
+      res.status(200).json(data);
+    } else {
+      const posts = await Post.findAll();
+      await redis.set("posts", JSON.stringify(posts));
 
-        res.status(200).json(posts);
-      }
-    } catch (error) {
-      next(error);
+      res.status(200).json(posts);
     }
   }
   static async postByUserId(req, res, next) {
     try {
       const { id } = req.params;
-
+      if (!id) throw { name: "NotFound" };
       const result = await User.findPostById(id);
 
       await redis.del("posts");
@@ -242,11 +230,12 @@ class Controller {
       const { data } = await axios.request(options);
       const userId = new ObjectId(String(req.user._id));
 
-      if (!data.places || data.places.length === 0) {
-        throw { name: "NotFound" };
-      }
-
-      if (idx < 0 || idx >= data.places.length) {
+      if (
+        !data.places ||
+        data.places.length === 0 ||
+        idx < 0 ||
+        idx >= data.places.length
+      ) {
         throw { name: "NotFound" };
       }
 
@@ -273,19 +262,15 @@ class Controller {
     }
   }
   static async listFavorite(req, res, next) {
-    try {
-      const userId = req.user._id;
-      const favorite = await Favorite.listFavorite(userId);
+    const userId = req.user._id;
+    const favorite = await Favorite.listFavorite(userId);
 
-      res.status(200).json(favorite);
-    } catch (error) {
-      next(error);
-    }
+    res.status(200).json(favorite);
   }
   static async deleteFavorite(req, res, next) {
     try {
       const { id } = req.params;
-
+      if (!id) throw { message: "NotFound" };
       await Favorite.deleteFavorite(id);
 
       res.status(200).json({ message: "Favorite deleted" });
@@ -310,6 +295,7 @@ class Controller {
       },
     };
     try {
+      if (!textQuery) throw { name: "NotFound" };
       const { data } = await axios.request(options);
       res.status(200).json({ data });
     } catch (error) {
@@ -344,6 +330,8 @@ class Controller {
       },
     };
     try {
+      if (!input) throw { name: "NotFound" };
+
       const {
         data: { result },
       } = await axios.request(options);

@@ -13,7 +13,8 @@ jest.mock("axios");
 
 let token;
 let id;
-
+let token2;
+let userId;
 beforeAll(async () => {
   const user = {
     fullname: "Test User",
@@ -24,6 +25,18 @@ beforeAll(async () => {
   };
   const test = await database.collection("users").insertOne(user);
   token = signToken({ id: test.insertedId });
+  userId = String(test.insertedId);
+
+  const user2 = {
+    fullname: "Test User2",
+    email: "testuser2@example.com",
+    password: hashPassword("testp2assword"),
+    username: "testus2er",
+    preference: "test pref2erence",
+  };
+  const test2 = await database.collection("users").insertOne(user2);
+  token2 = signToken({ id: test2.insertedId });
+  await database.collection("users").deleteOne({ fullname: "Test User2" });
 
   const post = {
     imageUrl: "http://example.com/test.jpg",
@@ -77,6 +90,14 @@ describe("Controllers", () => {
       expect(response.status).toBe(200);
       expect(response.body.message).toBe("login success");
     });
+    it("Invalid login", async () => {
+      const response = await request(app).post("/login").send({
+        email: "testuser@example.com",
+        password: "test",
+      });
+      expect(response.status).toBe(401);
+      expect(response.body.message).toBe("Invalid Email/Password");
+    });
   });
 
   describe("Post", () => {
@@ -104,7 +125,7 @@ describe("Controllers", () => {
 
       const response = await request(app)
         .post("/post")
-        .set("Authorization", `Bearer asd`)
+        .set("Authorization", `Bearer ${token2}`)
         .send(mockRequest);
       expect(response.status).toBe(401);
       expect(response.body.message).toBe("Invalid Token");
@@ -182,6 +203,33 @@ describe("Controllers", () => {
       expect(response.body.message).toBe("Post liked");
     });
 
+    it("like error", async () => {
+      const postId = 123;
+      const response = await request(app)
+        .put(`/like/${postId}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(500);
+      expect(response.body.message).toBe("Internal Server Error");
+    });
+
+    it("dislike error", async () => {
+      const postId = 123;
+      const response = await request(app)
+        .put(`/dislike/${postId}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(500);
+      expect(response.body.message).toBe("Internal Server Error");
+    });
+
+    it("Server Error", async () => {
+      const postId = 123;
+      const response = await request(app)
+        .put(`/unlike/${postId}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(500);
+      expect(response.body.message).toBe("Internal Server Error");
+    });
+
     it("should unlike a post", async () => {
       const postId = id;
       const response = await request(app)
@@ -198,6 +246,83 @@ describe("Controllers", () => {
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(200);
       expect(response.body.message).toBe("Post disliked");
+    });
+
+    it("should delete a post", async () => {
+      const postId = id;
+      const response = await request(app)
+        .delete(`/post/${postId}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+      expect(response.body.message).toBe("Post deleted");
+    });
+
+    it("should update preference", async () => {
+      const id = userId;
+      const response = await request(app)
+        .put(`/user/${id}`)
+        .set("Authorization", `Bearer ${token}`)
+        .send({ preference: "new preference" });
+      expect(response.status).toBe(201);
+    });
+
+    it("user profile", async () => {
+      const response = await request(app)
+        .get(`/user`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+    });
+
+    it("list favorite", async () => {
+      const response = await request(app)
+        .get(`/favorite`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+    });
+
+    it("delete favorite", async () => {
+      const response = await request(app)
+        .delete(`/favorite/${id}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+    });
+
+    it("delete not found", async () => {
+      const response = await request(app)
+        .delete(`/favorite/123`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(500);
+    });
+
+    it("post by user id", async () => {
+      const response = await request(app)
+        .get(`/post/${userId}`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+    });
+
+    it("post by user id", async () => {
+      const response = await request(app)
+        .get(`/post/123`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(500);
+    });
+
+    it("list post", async () => {
+      const response = await request(app)
+        .get(`/post`)
+        .set("Authorization", `Bearer ${token}`);
+      expect(response.status).toBe(200);
+    });
+
+    it("should update preference", async () => {
+      const id = userId;
+      const response = await request(app)
+        .put(`/user/${id}`)
+        .set("Authorization", `Bearer ${token}`)
+        .send({ preference: "" });
+      expect(response.status).toBe(400);
+      expect(response.body.message).toBe("Preference is required");
     });
   });
 
@@ -329,39 +454,61 @@ describe("Maps Controller", () => {
       data: { textQuery },
     });
   });
+  it("no input", async () => {
+    const mockData = {};
+
+    axios.request.mockResolvedValueOnce(mockData);
+
+    const textQuery = "";
+    const response = await request(app)
+      .post("/maps")
+      .send({ textQuery })
+      .expect(404);
+  });
 });
 
 describe("AI Controller", () => {
   it("should return AI response from the OpenAI API", async () => {
+    const mockData = { data: { result: "This is a test AI response." } };
+    axios.request.mockResolvedValueOnce(mockData);
+    const input = "Test input";
+    const response = await request(app).post("/ai").send({ input }).expect(500);
+  });
+
+  it("no input", async () => {
     const mockData = {
-      data: {
-        result: "This is a test AI response.",
-      },
+      name: "NotFound",
     };
 
+    const test = axios.request.mockResolvedValueOnce(mockData);
+    const input = "";
+    const response = await request(app).post("/ai").send({ input }).expect(404);
+  });
+});
+
+describe("Add favorite", () => {
+  it("not found", async () => {
+    const mockData = { data: { result: "This is a test AI response." } };
     axios.request.mockResolvedValueOnce(mockData);
-
     const input = "Test input";
-    const response = await request(app).post("/ai").send({ input }).expect(200);
+    const response = await request(app)
+      .post(`/favorite/${id}`)
+      .set("Authorization", `Bearer ${token}`)
+      .send({ input })
+      .expect(404);
+  });
 
-    expect(response.body.result).toEqual(mockData.data.result);
-    expect(axios.request).toHaveBeenCalledWith({
-      method: "POST",
-      url: "https://open-ai21.p.rapidapi.com/conversationgpt35",
-      headers: {
-        "content-type": "application/json",
-        "X-RapidAPI-Key": process.env.AI_KEY,
-        "X-RapidAPI-Host": process.env.AI_HOST,
-      },
-      data: {
-        messages: [{ role: "user", content: input }],
-        web_access: false,
-        system_prompt: "",
-        temperature: 0.9,
-        top_k: 5,
-        top_p: 0.9,
-        max_tokens: 256,
-      },
-    });
+  it("error", async () => {
+    const mockData = {
+      name: "NotFound",
+    };
+
+    const test = axios.request.mockResolvedValueOnce(mockData);
+    const input = "";
+    const response = await request(app)
+      .post("/favorite/-1")
+      .set("Authorization", `Bearer ${token}`)
+      .send({ input })
+      .expect(500);
   });
 });

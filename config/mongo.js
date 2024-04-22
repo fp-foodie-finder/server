@@ -13,6 +13,6 @@ const client = new MongoClient(uri, {
 });
 
 // change db name to Testing to test
-const database = client.db("Final-Project");
+const database = client.db("Testing");
 
 module.exports = { database };

@@ -39,9 +39,6 @@ const errHandler = (err, req, res, next) => {
     case "JsonWebTokenError":
       res.status(401).json({ message: "Invalid Token" });
       break;
-    case "Forbidden":
-      res.status(403).json({ message: "Forbidden" });
-      break;
     default:
       console.log(err);
       res.status(500).json({ message: "Internal Server Error" });

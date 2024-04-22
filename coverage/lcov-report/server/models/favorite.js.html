@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/12</span>
+                <span class='fraction'>10/12</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">75% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>3/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/12</span>
+                <span class='fraction'>10/12</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -123,7 +123,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -132,7 +132,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -158,18 +158,18 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -177,8 +177,8 @@
 const { ObjectId } = require("mongodb");
 &nbsp;
 class Favorite {
-<span class="fstat-no" title="function not covered" >  st</span>atic favoriteCollection() {
-<span class="cstat-no" title="statement not covered" >    return database.collection("favorites");</span>
+  static favoriteCollection() {
+    return database.collection("favorites");
   }
 &nbsp;
 <span class="fstat-no" title="function not covered" >  st</span>atic async addFavorite(payload) {
@@ -186,8 +186,8 @@ class Favorite {
 <span class="cstat-no" title="statement not covered" >    return newFavorite;</span>
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  st</span>atic async listFavorite(userId) {
-    const agg = <span class="cstat-no" title="statement not covered" >[</span>
+  static async listFavorite(userId) {
+    const agg = [
       {
         $match: {
           userId: new ObjectId(String(userId)),
@@ -213,18 +213,18 @@ class Favorite {
         },
       },
     ];
-    const cursor = <span class="cstat-no" title="statement not covered" >this.favoriteCollection().aggregate(agg);</span>
-    const result = <span class="cstat-no" title="statement not covered" >await cursor.toArray();</span>
+    const cursor = this.favoriteCollection().aggregate(agg);
+    const result = await cursor.toArray();
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return result;</span>
+    return result;
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  st</span>atic async deleteFavorite(id) {
-    const result = <span class="cstat-no" title="statement not covered" >await this.favoriteCollection().deleteOne({</span>
+  static async deleteFavorite(id) {
+    const result = await this.favoriteCollection().deleteOne({
       _id: new ObjectId(String(id))
     });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    return result;</span>
+    return result;
   }
 }
 &nbsp;
@@ -235,7 +235,7 @@ module.exports = Favorite;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-04-22T07:15:38.276Z
+                at 2024-04-22T10:27:04.269Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
