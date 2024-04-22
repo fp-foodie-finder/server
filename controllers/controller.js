@@ -132,9 +132,9 @@ class Controller {
   static async listPost(req, res, next) {
     const redisPost = await redis.get("posts");
     if (redisPost) {
-      console.log("from redis");
       const data = JSON.parse(redisPost);
 
+      await redis.del("posts");
       res.setHeader("Cache-Control", "no-store");
       res.status(200).json(data);
     } else {
