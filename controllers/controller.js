@@ -208,6 +208,19 @@ class Controller {
       next(error);
     }
   }
+  static async undislikePost(req, res, next) {
+    try {
+      const { id } = req.params;
+      const username = req.user.username;
+
+      await Post.updateUnlike(id, { dislike: [username] });
+      await redis.del("posts");
+
+      res.status(200).json({ message: "Post undisliked" });
+    } catch (error) {
+      next(error);
+    }
+  }
   static async deletePost(req, res, next) {
     try {
       const { id } = req.params;
