@@ -24,7 +24,7 @@ const errHandler = (err, req, res, next) => {
     case "FormatEmail":
       res
         .status(400)
-        .json({ message: "Email must be formated (example@gmail.com)" });
+        .json({ message: "Email must be formatted (example@gmail.com)" });
       break;
     case "ExistEmail":
       res.status(400).json({ message: "Email already exists" });

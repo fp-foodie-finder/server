@@ -1,0 +1,2125 @@
+{
+  "data": {
+    "places": [
+      {
+        "formattedAddress": "Ashta No.8 8, RT.8/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190, Indonesia",
+        "rating": 2.8,
+        "googleMapsUri": "https://maps.google.com/?cid=13306141720723263530",
+        "displayName": {
+          "text": "Goods burger",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJvUk68J3xaS4RKhC3YmXpqLg/photos/ATplDJZ9q6RsFBdMZDikUHyRzbUWlupAB369Ts7mxxHByvHyJSZ5bw3dSB6qtMFSicmSdjhIjpEgxuwKXXaDjcZbC8VWwJzlnmpvHzfrfSQZWV5AmM32r6Crgw-aAn0HZ1yo7OcfORmuTTucPYNVRH6y1QGwqHyd-6a3Fzma",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "TYS",
+                "uri": "//maps.google.com/maps/contrib/104381423883102540325",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVLzVxSA40Vukzj3FjelzD6En558YRZc4OoHxHjgO0j7zeWEhpAcw=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJvUk68J3xaS4RKhC3YmXpqLg/photos/ATplDJYhTEobp1OF5P_0sW4eyFNzzSw6DCCfNUkWltQWJSl79gxOZ5Atg1tKB2hDfvAiXJ6-8jbANoV8kaunN8-HrmjfGpZ_6bjvkYmo2T8PVvvabgMLCZF8D1yFQIL7qYj3qrGkPvZG6pR98EM4YQdwIjtRWE5obe8_8JX-",
+            "widthPx": 990,
+            "heightPx": 1026,
+            "authorAttributions": [
+              {
+                "displayName": "Teguh Yuniswan",
+                "uri": "//maps.google.com/maps/contrib/100033721742393636951",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVooZp9JfkSMpEZVaiI4Pu2CBgjl1sUC8j8GL24lWBFpSBP-aSQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJvUk68J3xaS4RKhC3YmXpqLg/photos/ATplDJaCz4BtrXXbEXtWUzLH7L2rHGaWJNxa9O5YQ6ai6xQ26rwFsm174nUU2b-QWBxs212WUFHF2719kH7MLijcHa9z7S8ASRSHo6LNZZVTlwiBbyJhHF-BNv8fNxhFsi3OMaTk-aAZltCtAqBCwM3ZeIC2AC8Ig6ZWdPsT",
+            "widthPx": 3468,
+            "heightPx": 4624,
+            "authorAttributions": [
+              {
+                "displayName": "Christ",
+                "uri": "//maps.google.com/maps/contrib/102065425485036257658",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVxXbRDLY-gUDAO20NEKxjacAqJxf8izEJVtnJUX9ax9Cn9vJwL=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJvUk68J3xaS4RKhC3YmXpqLg/photos/ATplDJYs2W5qwbKTrPbt7C6rK5vJz8lS3VpXZS3-8MzNGGEsxSd_NkpZLRA3c8isZWWddCwZKlapra7_jrvamg5YbkD-VFKhOzUql0acqHeB8C7fuYU0BqJ6ElgVY-5FgwP9MjeG0_cgA6FoaXcWP4papeDgXcUqoi0Z_oGx",
+            "widthPx": 3468,
+            "heightPx": 4624,
+            "authorAttributions": [
+              {
+                "displayName": "Christ",
+                "uri": "//maps.google.com/maps/contrib/102065425485036257658",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVxXbRDLY-gUDAO20NEKxjacAqJxf8izEJVtnJUX9ax9Cn9vJwL=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "5, Jl. Taman Setia Budi II No.19, RT.5/RW.3, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12910, Indonesia",
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=18434853779899144147",
+        "displayName": {
+          "text": "BGLK Burger and Coffee",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJaxbqVqTXj4DxHVDg72f5fsx3nz4TkKocgSx5oYgSqkttdFPoXSyhio34Rbz_euA97PGRv889jpWig0QviYADp7ZKnkzrhcqg5oUTCK7mICCWlvwquaGFAXYlTQOsHdagEsSkfU2-YFpvQN54jH0P3GFdVBei8rEEtS",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJYfwrqN48YnmesTnCZkH2XYQn6AbQY5iYJ9AYC0y-DwQbTvhBv_CDVA_bxmLoq_ryIp8edGstrWdWSE0YAN-nbZIRXSNxFhTBunK7nFm17kaPC5p2LSDbqE-gpSY4Cm1SccdJmi4E3CxR6SgnW094j-c9ZHqT5NwYVI",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJZLVAWK0Vcml_Eo7TDMRrUEVAbtcUIDfUGusdRBVVTqsTsmIf1RP-io6IcwQ4r1BUFfY9VOBheiIn-_rN63onrwyBgTXWPKdNI6-Jb6B6-jccnxV5eakSHgupz30cV_wmbquBERkn_BF4Fz8cbmocLW6mfdvkPG4hX-",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJYI9cBHy21ZkzUjecdEyQcm4MWbPcj2km3jUWJgEdwbKXnLwATEJg5CHFZ9TZ32uvIWBCZdS-SvYMx38VHeizmDaPKLkEBpVkGDf52rYw11FJsORUMOL5bY9vo0mDgjSk8xpyZr_BTHCF5FNXkjqbgvRPjgnVmLot7A",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJYv0TEhbnEFTZf7w8OrvYnEZgASIRgMf-jybffqTrsRANnKFc69PmqhmEkqiDzzvrC2hYlzgfkO0Lf3QxDKRAm3aZx4J_NlWbf25yIZlGUHRvO41uGIo4C0GOKl0r1e337mokNaPrUoB1D5_kQoOW2izesknrDAPBs",
+            "widthPx": 4608,
+            "heightPx": 2184,
+            "authorAttributions": [
+              {
+                "displayName": "Irri Napitupulu",
+                "uri": "//maps.google.com/maps/contrib/105407320347259247597",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXy8H-dcClajTvhwtYp_JTN0iV1otCnPClLWlMqQLbKHiPS1c87=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJaEZqPl9mRbGV5C1-MVtMOID-DH33_U7ovwxQO-66O2BT-ojADoKlfQN63DlYOy8YD8ONbOqbo4S6sI8g_S9bNfDhh2WOGGeNK3H1YTV9S0zTQ8BhUYiYGiC5Nr4NHy39xgOi04Ec_cks1HlxtvvZwTPohzChFsYf_D",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "ari prass",
+                "uri": "//maps.google.com/maps/contrib/102373990179795677546",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMIIBZvjA30i0XzRj_hI0EO9RVJpfwW2hSrShDqfmSBJ7D7liy=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJb5j-4FFu0bZRq9s4DYvxEotaI2mdg-z2QHiCcGdNjvC06wWRfUixdFqVSONoU2JGwbfNxGWYwcn3b0TFfPSjx3v3UoaS_DF_jTEFEmD_AtqU4MYmLEtrbbK923uzIalTExyML9U6OSOKiij0UFQRADfBw6WPqZrxFG",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJZMKZOkWHUnVfot4DWEPq0HQKqGD50g21qgOEz-y0k-ht1yAgpuNYFNOHsZA0oHJQGi7_xTV1eoFcRCcTLVca5TRh7w0svUDqAklkWgfXD9s1Fsy5AZvce8VMokrmFwZt07Q9a1ZGGKKCl2uc4O-Bcgfh2kLfAn-TIP",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJbTasEv7vLtOKfmzi4ac8iA0lZBztZ1OSElEqDn48tbEJEJivAJQLi469GmPjzCOciGRgccaRznpZ_HgRIkXa5dIxX6lzZGjAzpPdBJXoHd_8bkoyrnwFsrdJVWu90LhawBWaMie4H3OYt_m8puz9JXrH7Wv7mCHZ5l",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJYWSC_Rr1aS4R09cnPdfB1f8/photos/ATplDJYB8h0Ra6tP898z5qJ80T8dkJE_OjfEP5m1qfR_-Yq6X2Dg54pTt50h3SBzGXjojPcjNAG7krFwg9-Kqe5KC5JMcIpZiNClnmgks3MzEcaMcxoWufPAg35-LP_3BW_C-i452Yh4-bGfJH_bFyEhfWIU3Q17v_BX-249",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BGLK Burger and Coffee",
+                "uri": "//maps.google.com/maps/contrib/107193914897456808520",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIjiJqtGXYOupcwQBQ0PnHoRkgWfQuekuGu1HJL-I3iSLvgwg=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Kemang V No.6F, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12730, Indonesia",
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=2112933290139520300",
+        "displayName": {
+          "text": "Unicorn Burger",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJZSvKZrFjg9b3R3OCK8JGLCG7x3bFiIe9KTypBNlQw-y_xF1x8HGo9obnOAxbp3TZYGn1LCxn44OBmv1TkVXg3C4O3B3Ze5dM6QY59vlOp2SjXTjORNR_HWEP8iMJPWZ6snrCUmlXuNhGi1HNton5eWZe6TXSmMU4rH",
+            "widthPx": 10000,
+            "heightPx": 3333,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJYxGyhrRowxEbo84YfUuJtpyIdfX2w8cOCqnBhzm_Cz6iaUrp81PMkRcU_Xk0MQWzBcqHL8nCssZQJPqBhURvRRDAwaH9qZrcaCAOkpx2GX4QMnHD3OA5toEZlHVa8qiOUzGjkMipexcx7xTUvMU46yY8kJRfOj-J4I",
+            "widthPx": 1080,
+            "heightPx": 1080,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJYZatJK674SKZjQ_nufRAmysVPKiZlfKLyWZ23TemIZgeoQ_Ssm7m0hMZu1DWkXBVjCFKLmE3jPpQVNAgLj8YOo7MBjyju8zjjQmHTGFARcAyoSLYlbEl-Od8py_1XKfDkf2l0NS-peKyGQjX3oGxfbjKENX4tJYdxx",
+            "widthPx": 540,
+            "heightPx": 540,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJaUMoQn90W7TK2iRX7dA537refpj4JrcpQcKbrNYT1g-60kHeVMUOQ66dnBCycFZrUYDG8AgWkA-yYW0E_s0l1Y2rYi4WBZ8XymW7b0nhPH-PZMQgaFLKoyy56UhhJeLK4QjWZzKIbruotDhd97GiNU2EhnYxG7Dlus",
+            "widthPx": 5664,
+            "heightPx": 2752,
+            "authorAttributions": [
+              {
+                "displayName": "Ann Violet",
+                "uri": "//maps.google.com/maps/contrib/105727610324724760408",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJXr5NHFJpJTViEqsLF3JUFG0jqBU4y27RGLcK3xKZ7Ucz0oQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJYYrZOYjV17rG9BUYvXCjP7heeP_ZCVGBbhU6UGIC7soh9Whr4IDo0SoFzkNvc1DqmwWACFUeZkr8VJjXnNd_pvnCJHCm1htXccoSToz0y1uYSERorE2krZqS5FBHz_x83alWsDa86jNPtwYC9vw01sXCF4W78DZUU3",
+            "widthPx": 1080,
+            "heightPx": 1080,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJa1bb6fJA4CyUDOW9ishMfMLbJB8GH8TjVsn-ZKuLpf81WTmYrtEgdqiZwLumkCiwOdygWsWIHMEGGCIKxn15m0jRYeWB8cEPS1kdmXbrIUglxZPAObqijbo4nEyYMdQynQBLi3_p0X_7fYCGUvosKSj_XtbXFHg0mc",
+            "widthPx": 2384,
+            "heightPx": 2384,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJZOF5laSOkj5k1xxyWqamqWNdjkabuTqH61jR1AfWIq2lS7iXA_u5BSzafdMVQw2iV6s-U_uKk3Ts27Ie0dQBwrrHk8ErqHClC7VEgUxJUVQwd5oAEYzjLQYP245Zyr8_7_fv1I-A6Qr_sVhtn4TcC4Ja8nMq601IxB",
+            "widthPx": 682,
+            "heightPx": 1024,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJa9qyqksq3Q0sa3z3BhZ8F9cdlDAM42QEHJ5NZdeeZFiPw1afmz5lU5qxOIslBd2l0tK81Y-zoD52rTLwwfUe7S29pxnglYY4pEn9FauVRl3p8iRxHhn4j8uIPmci8iL0aMjvZ6aFljVk3sPKwdSUaR10hwe5RaHcFa",
+            "widthPx": 1080,
+            "heightPx": 1350,
+            "authorAttributions": [
+              {
+                "displayName": "Unicorn Burger",
+                "uri": "//maps.google.com/maps/contrib/109019201529371226957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVMHXf9_D4iGVkc4LHmtcmN3TmXxJJu4ZruHnxFx1-S0_trMPQg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJY6oh3MHKup_3Fctw5Xim6N18JQiRhWJRa9lLVplVEC43AxXSi8mGYa97aPb5UvpttsusVnoQ5MJWUilbHJuYSGvgO3uLjIhi7B3jFlq8yNvCTCgxcrnCJHSvk4u3jQWvM-V_j9ygMbSa-PsDy5TUBVFiUSNBJjOpGW",
+            "widthPx": 3024,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Lulu",
+                "uri": "//maps.google.com/maps/contrib/118238479709936173823",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJNsSSDseJeKzoRR0MsGZPHKbhWitHu3T2NM0ZOp3Jp9Na70A=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJm0gwjxjxaS4RLA3d8KGlUh0/photos/ATplDJYf1oQMPq6HQSIjZlCePs1I4hLgJKBNQg9p1CiMaw4lteJhStaMK-8bJ-csbqQ3FovLE3-swo0b8b22_7dzU-5JDkE4eAYDmX5lzcmNP5IsJo9A57tzei06gA1NqHHq0byzUqo777miwmMRPevUdp8aKy7xJfsXxT4l",
+            "widthPx": 1080,
+            "heightPx": 1350,
+            "authorAttributions": [
+              {
+                "displayName": "Daniel Mark Jatnika",
+                "uri": "//maps.google.com/maps/contrib/113666038409625507707",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVIq1DLAzdt4gjbP8DNVZ9T3QGRl7QuR71GDXjHhJEsd28M1xcH=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "II No.37, 12160, Jl. Wijaya Timur VI No.2, RT.5/RW.7, Pulo, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12170, Indonesia",
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=12125994560040610991",
+        "displayName": {
+          "text": "Burger Exspress",
+          "languageCode": "id"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJYMhoTs7tFEZZ5C4K7YOPP4vENELmx4sV829yM1jTE8CEqwq6HPo1E53gZTKcJsErxk2URtnV2H7Q8jDCmM4i6aE9lub_a_F5409ED5iGbslSS-tuAWZfWyD2R8JQxk1bqt_KamHsBuWWZFlZholgykSqPI8Ohp_0FH",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJYch1CyW3PkME39UFgsWk7TCSk7TvVa5P9J0Uc-eq7yxjJjvBApP5EySOekYLFmXIqMKDwUE7aKKq1ZhpKCeTBS4sHnNYSug-b_V43Dgnb5QG64QpQCJ8FZi_kx0sUSUIJOLghVEfYEJwaBIm6IU6ovTvnoxG9-LLcq",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJYIqR9mZOfbCKeQeO14hlQKMg9r3L7Jrk2Kwk06Zs8GCezcI16pnfQLXM2cpSqqYBfXWV6m1hXa0Kg4FuuwOaF7mPWgSzeSyoDVw4J_UQsMokF21-CxfoVdMEjzdPgIcrPT_nEF-8byehsurnIcuibRHYJOwQ9Z6vqH",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJb71GU4m5MaYRjSMzvHrIKItuVi8kOXjvDJDOfxLpYkzybupWmHxR14wAoi18Iz_krXih4QQGbOpLg5uyWFGs9BjYxCJWmbVsWpgNk2Mb5UlgizqMETm6TgXnVy-sJnNGLvczsDShlHDv8PiF02y40idPH99f0SKM4-",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJb3fvQQSbyCFIXLekgBKfsn6O2a3io6waSsN2WxpEwGmWoyjlJYAj69vfGaDUikTOs3WiN4KPmrBFxcGJqwORD-2fYOKPCWpaay0pcwfkFdcYjJRNnXNYQvKAn0qcSBeMUIJDOfJ3D3Un_gJxI8D-pg2hRyu5NZ9YpB",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ4bgFanHxaS4RryyKW84vSKg/photos/ATplDJblluU-HeM616d4je5T0Yxz-saaETGVkFlRxh78jePY9AZyTTDby2cy6ZVWJ-4eKe1VM8uV7twnwOdmbI53jAegVlpoZEM0cbQYl0dboS1nqA_xFKPdw6vSwcS9A3fa8ZcYCqgWlExRUp1vXM8vVp5ZwkILsbRPQ0OI",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Anna R Nawaning S",
+                "uri": "//maps.google.com/maps/contrib/102376410183652875214",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU1cGl0gAdOmPHkL7DejdRx_efzCbvkc02TiQSFrYz0pep9i-s=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Alila SCBD Jakarta, Jl. Jend. Sudirman kav 52-53 Lot 11, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190, Indonesia",
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=7874230895640135502",
+        "displayName": {
+          "text": "Le Burger",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJagbuAByPTgBJxKeLIscil1yil8H7X2hTukJ1xPekQusriiGV1rxCAZ7u9r4OMdmIs4RWD2M830bt7K0xPeSKkY7cMkx-m_iLmQl5F4E_Pj_DM1F1O82vXEbNzLNNYSRM1erNxvn5YIRfHJodVqexYNYUtzItHCH0Qt",
+            "widthPx": 2085,
+            "heightPx": 1390,
+            "authorAttributions": [
+              {
+                "displayName": "Le Burger",
+                "uri": "//maps.google.com/maps/contrib/116496082108258267784",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV3a6od6iowzmXBjDcD2wdNUxSloJnDDZi-0TFWUCKreReSXhM=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJawheflY5tz_Xw2zousGwyyG8xvJXu9Ioz8lB0dEq0htOAEuIphjIEhE8MJauWsijjqQ8Fe8ymCZ7F3l50cGhoUhB-p1i9F61L0SIlCR-YmzIonVx-TF3awaLC354sYF4QNvBOZX7DcouhpFYqSrEpVI4eK6h7HrlYD",
+            "widthPx": 6912,
+            "heightPx": 9216,
+            "authorAttributions": [
+              {
+                "displayName": "Aileen Natalia",
+                "uri": "//maps.google.com/maps/contrib/112651146993982970127",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU9hM9VJGcAwbMnXfvoADBM8nGVdsDZtYBtHVAvQTOBUFzP8qhpkQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZTneyBO5A3UmxcNiTSXEBi85N0r91cSSSRzJuZ90-rXlAwPugS6NGK_1ldoCHyMhOQ8ZaSN_d7yx9p2_Mwvd962hZXaMCDdN1Acoyxvl1WSiMIktnBFslfOv761ode3oa9YEBxRYL3ssvJGYkZ-Ihi1HtJeyn-hFcW",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "ابو محمد",
+                "uri": "//maps.google.com/maps/contrib/105511361068323781442",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXY4G3SdhF2BwIahWr_gO4DlZd9pYkmQV-fGmwCkKo4TqoBsz2U=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZc48eHBQwX9hn8qnO9A7IZg9jQ3eCLL36mBtMKzhWWENgMuBUySvvMpJyLEv2anUVbYUChZbBht1h1xufbokEq_8gLY26V5L2xcpIhLLs8ZMyyFs3Jm5M3raBSBGvh3F-WX7PHBfByPdyFyKuSOndAldYwT2AbiMQi",
+            "widthPx": 2992,
+            "heightPx": 2992,
+            "authorAttributions": [
+              {
+                "displayName": "sumiati tjendra",
+                "uri": "//maps.google.com/maps/contrib/115184207690516845122",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKcCXtZLmUHRufxAjylTrlRxOy5qVaUka_LTO-rOX2rSfcjKw=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZiSVAwlVmRHWTWQ1aRYKvRrDmgsd08qHpBBkO0AbrnheGfzdJhgsDIg1Y1edT4T7Xj34_BKtL4wKdtBitFdV_gLEfY26VkkxW554ub-uJb41qgfuwuINX3iur6tAev6hkR3dlEX8UIPpHjdERhhH2rUoRsj3iD8xvl",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Yi Ling",
+                "uri": "//maps.google.com/maps/contrib/115707001285123682601",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUlkcK6FpBb-Q_EER2W7ON8uPix2iL97NAPchaAE0TxCULNloBN=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZjnHgzXVvYXAOFmvfHQ_TnvjNm-BM6lMP4LpQI8gAlnVoyKHyGpLhqbpBl4yDvQTU2b_zMdlM9w4nS66YX4_IDJwCRl5iWDva-T9FmNTVm9chj-w_nWvT503O50KHEo4v3uKb7KdyoHJJMjOdKbAQbEpFkKlBY0bCP",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Isabella KIM",
+                "uri": "//maps.google.com/maps/contrib/104971676877552831329",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV9t8GATMmZ3_35uUYi4tDlWKUikk_1WjRz7_60kC7GO-6jkBoL=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZ1eUIIrArQRcZ6y3iqnbAhXAAJ0Yu0aXTg5fyisNb3pCtdPA77fQLAd9BqssyBCTaJgz9cEXYbhRilwjoyTpNNGAo2jsF0mzUi2HKbJcCcUda5hAwS2Abmp70vivgZpXym14DPTv2bBqBjEhctbGgjEYV_gcoVVv0c",
+            "widthPx": 2160,
+            "heightPx": 2160,
+            "authorAttributions": [
+              {
+                "displayName": "Charles",
+                "uri": "//maps.google.com/maps/contrib/113250246979892731747",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVrySnpnDmTQNB3PeMSRWTJNAlek_GT6aZX2g9UTYbBI2O0hjYJ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJZL4Flwd_v695t64FAdt2zzlZPmpiklstZ00ECO1SuO3yvWg6dD8s0PTiW2xVQ5qV5DD_2LlqubDi1TM2tFhhXAA7BGuL9HK6KLD5MCwmIEpSCqYQDhd5XSpp5ufQpFD9jYTZsKl3DggVnUs4xqTDBubUJO18SvgPkW",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Harish",
+                "uri": "//maps.google.com/maps/contrib/111186510888423431957",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWKL_8p5-t7Esg6iflXoD32FgvZB3P5MxUgefDwgHtG1oJu7vioRQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJaSZs1P6mrO3nrKlTS5hjNCEgRKsXb9P5kXOhotd95EIQV_nhQwhp96tsrtiBbBn7TKsaV7h9yu5MKvO5yRNi6uVncSo1N3nxeOaLxkUG3-n2WQvNEeko84JJDwH0Wk7KBBN-HD-xEiOyhu9DrRZM8itq3ltRbHFnG8",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Richard Miller",
+                "uri": "//maps.google.com/maps/contrib/105644308496424033621",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUhSmk6j-V6S9oeU0GcO9NfGN3e8mRHYJb4eJVf9v_Qdr3WZhs=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJRwWgTVDxaS4RTkcJtkfjRm0/photos/ATplDJbN7BjFByzbAF0TQ9XfRmUdf-hO2DoAGboWdk8l7P8jjKrTQoiHOTCuBjp3h8FDWInK7ld3O7iN9MOFPlWpmVlJ46j53_tQqkqrflGjggPd1J4DV-aB2sdGuZXg3x8rZvD-7eD0-Sl9uo6alfT9MO2EmCd_rLNVouh-",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Fendy K",
+                "uri": "//maps.google.com/maps/contrib/101410140068262516317",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUObsSTwPorCA-3fza6nSgRLRXLD736wvJhvNLF8PdTfeqZBn6j7w=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Bumi No.58 A, Gunung, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12120, Indonesia",
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=10056879198724162559",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "displayName": {
+          "text": "Blenger Burger",
+          "languageCode": "id"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJZSW0JWuPbCSTQIRzBQEq2S7tjxT8kFnquxncoVwsxDwmnQXwz58lYuSzC6-VUI5q8aHWcpqgmktim_YPNSHCI5ron46_3r2b4AhF_joKePLr2EBxm5WAHPFNnD2VLvgcR2JG5yJUKevT06OjeBeYf0GIVt9G8ljfC5",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Mamo Pratomo",
+                "uri": "//maps.google.com/maps/contrib/102287894402380908543",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLEmWivhxxCQXhF8C_6YHCA-402iE-k3DakwHoYGWrdl1fG5g=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJY-aBP3HenKrL_vHkA8xIyxbP3viNZ4VaDY8BkP2FYuCWNmpyWzgAk0yQzkJBkPIdGtKGeJ6_YHlkivMEhxVN0CpVkEv6TDgoyeoRzPe22woKmgKchkAkf2q25eL_vkZI7cpVuj4pfqNCyHAOX3Mmr9XBJWW1OvXJEN",
+            "widthPx": 4032,
+            "heightPx": 2806,
+            "authorAttributions": [
+              {
+                "displayName": "filemon jalu",
+                "uri": "//maps.google.com/maps/contrib/108869828253879997841",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU3bUwaH5C-QFOzAZtPCMZNymyAKChuVUG_gbO23ruaorV65i4vpg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJbUbELDqRIDpu17YlqrpTUi7KpnDse2q_SFoihenWlidbzZAP3J67_UB9ikotHIUFSJ5_tPmo5cAno5d_uatlmg_9TVMs7wJZ3FpYqHBuKPXoHhMhH4DnPJl-HDNM35eva7eZasfFjUVy153jIByLiN4aD2aNBKvs6y",
+            "widthPx": 3072,
+            "heightPx": 4080,
+            "authorAttributions": [
+              {
+                "displayName": "fadhilah azzahrah",
+                "uri": "//maps.google.com/maps/contrib/108228806971218726793",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWkwETNePbqWS0nFtiswiDv-ZzubYy6gAtRFFiR6-7G28oe7MSYJA=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJYOAZk2Q3ONa-Rq4fU9AvbGmmDy0aiH8O3O68N5jsQ2rhYMrVVT28knPvCtT7UK19nGymfELS1zpc9BJuVQWS1bY35OGxMUuw9IB3defDjXvXh5jD3NRy1_VBtws2QBxnZaullN7SUYENHo8vSC5rdu5o29T0UJSrbk",
+            "widthPx": 4000,
+            "heightPx": 2252,
+            "authorAttributions": [
+              {
+                "displayName": "Alfeus L",
+                "uri": "//maps.google.com/maps/contrib/112361285654737189160",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWQdqBN3x2IPCib17WRKuEhxftJ5kinHXxAkVoqLs0ro5vM1TNK=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJbWjJBK56pMMJ9V5OsLPYQPEVnQ13U4vJxgluvKUi8y9iMAqMvT2uWBCRejK8kNyCYXm6fS-SBH41mDAYt2gTHCRMrk-pn1Hzp1sbfjeyQ67QMtIRXta9YQZ3ZwkoGQYNLi_B78VJY5yK6qBIItTXRIFUDd_FIWv5Rc",
+            "widthPx": 1600,
+            "heightPx": 900,
+            "authorAttributions": [
+              {
+                "displayName": "Ecko Siswanto",
+                "uri": "//maps.google.com/maps/contrib/112258431641170652256",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXwzOFq6qcOOHyqE13E9eEoIAIBXb_3irzyQw0fNXVf1C6U7ijZ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJaNMiX3W0YtRTrL39vCApIJiEV9_UsgeJv-XOSnCnC0VDUsQZdN5zl4gdGV2pZM9maWa9wedlHcD--75FjAfrZj4OPWw29hl_WTL02-pPF9Cu3_Wif6oXuDiG7KmxM-m7UcgJbPP0TCtKhR5fYIhOtCViGyrasvXJ21",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Desy Indria Sari",
+                "uri": "//maps.google.com/maps/contrib/104519201494777184739",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUxokCyhqy6hX7BVl-A-U4Fo5wighjlaA9Tanh8mwhsJbJeTqE=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJZyqFpC1ZS_F_oSS9mHiNr16qi6FsfCS4SfREHQgOzvpMHIfn3Bv6ItenIOZ1YwEEHUKET3B4fSm3bnqpdc7cozbc7Z97TcEiR9TZ_ZXYm78rMzFvoKgIjKgIBhtgqGzE8LWu0MvY2_TbuOBTT0pgI5LtXr_AiPCUJA",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Jus amin",
+                "uri": "//maps.google.com/maps/contrib/111093540720995702985",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVqGxP7bMwKaH9_QQwLNcbqWvA3pPwBGMZgyuK77_ESJAcwitbP=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJakSOrbIzt_JWSdayEf8LH_ccfhmPU7mQ4oqlmiR13OatCLSUhIM99063eDjuba8Lh5_gfpH1kpG7YzaHCvzP8zS9d9OwjYH6Wk6R4usvm2je0mfxx0baS99uNlisL2OpOSLROvJNVnNupW1OlBVtYZMcdZRMQXVnTH",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Marsha Dwizashista",
+                "uri": "//maps.google.com/maps/contrib/101360811493174224813",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUDcd9rXRdLNbHAkKxxlDvU8JMQui3yJLKuaL3ojIxy-4JffB8d=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJbL9gNkMEQLOdJyYxhybG4J5EhrOSNYLWJm5vf1S3THRQotZGD_fEXrbAV44liesUoou46FwL3kLxQNVOf9RC5X_6YHkaQ8akKeQ7r1BkWwJ9NNxdxS5ufomFCiS6mXpPclfclTFc87kJugqj53Yp_oWXd28HpfZFTu",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Titik Ernawati",
+                "uri": "//maps.google.com/maps/contrib/106615100981378722638",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW_mpl1QIoi_P-SHSK7gZK06WyinegqNZHiiFifzSLgkZvUSva9=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJC6AyshTxaS4R_wP4_Fg2kYs/photos/ATplDJbPjOLNm9hrolywNZ_mANfRMWEFqGWrdNkfQj_e7TB_XBV_mN9Owz-HZJyoGyLLOvOxCplmqSyjBlQxvPaEGomPAmq08coK4i7D7m9EeioxzqOgUyo7EdpqmdOINU7Kt2dYyRn54rWnjxHZlkMRgAaQzAmIUApa9b1u",
+            "widthPx": 1599,
+            "heightPx": 1200,
+            "authorAttributions": [
+              {
+                "displayName": "Rizky E.n Putri",
+                "uri": "//maps.google.com/maps/contrib/110011299597092164565",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWFK3GjfCjJxCbTMUsgk9fYc3RhncSl_lzPEtL9P0aZSmka8kg=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Kemang Selatan VIII No.67K 7, RT.7/RW.2, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12730, Indonesia",
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=14583620697664128228",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "displayName": {
+          "text": "Lawless Jakarta",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJZzKs3uWw0iugTP9A2a4wgWa3a_Ng9qinxWIxS-vTR790NePYIh5Qo2-9-YAjTBw5ZPXpRFd5nft-oE_4c7c5uH7cmjtmE788i8X3Dn2M4-x0EzVen2Nl4X5tPdvUUYKeV7S9-GHcZQP6aDZKu0uC8LeQvgLDRpiO3W",
+            "widthPx": 2048,
+            "heightPx": 1152,
+            "authorAttributions": [
+              {
+                "displayName": "Lawless Jakarta",
+                "uri": "//maps.google.com/maps/contrib/107272014272413782231",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWtXUxvG3VdC7xzT9kgUaOwLOwu-71ispx-87TUqqUPi4rM20Y=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJY8C1ZV90vW9v56dEpQFAREHZgYYwpTLHtZ28jMqCX6TklNgS3Aws__cEPX_30qzxC82UbyJQ9x-MRysqQZv_U6nPVuaQ4IXRxvsOzYBjOmqXHbrLVsZjhM7Dz6NrFpxZjExh_hYVVPqnG56JIMVN5m99srh4uVyxvb",
+            "widthPx": 4608,
+            "heightPx": 3456,
+            "authorAttributions": [
+              {
+                "displayName": "Andi Mahathir",
+                "uri": "//maps.google.com/maps/contrib/113797069597408837775",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXhjNeQ6LVU1SJ5NmHbXMg-JcPJ7C43Z5IYu2vmLAMyCiTW4ao1Ig=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJa2Mdmjz2Nri361PnqSFlgPG5CoEObOQTjY784Efg4Fgs8vtePpHlBZw0NUEqV7bEm_sf4YanH-yUwTT40rM05X5jKFdSPZ_GNWgZiGacUfVZ_napvgKGdDSnk5XAut9-o6jMrtf8Sbl35FBGIuJsx9jUDFAdKaN96X",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Alex Ocone",
+                "uri": "//maps.google.com/maps/contrib/117334049287224087169",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXnVGNwHr0cM9a__rSyqoI3gGNPguvUerZ-bnjXageVU9TNSMjk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJaaMgtvDeyM_NQM-PER8ucnd1nYHdkvy7YS9f-cUyYT4ItSTaps6yyV8XxfUOD7ZCeRFUMh5sy7chJLDSOI5ADGPWa_QdqQr0IifamPirTM2AwdlN_GqdrYrjRUqXtJOgxeZE2Zv5q9ITU5cAyPIJel46PclZ8Rr84j",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Elle",
+                "uri": "//maps.google.com/maps/contrib/104629816706503689099",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW16lzjX0M9_gQg19uf3jJMM-t-sgkx4PgIOqG5PaIzFfDHUr4iUg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJZ3JLNbrfm_kIenbCSdTGGl5UDykkicgKvToy3VE3vVqkjAagn38nNOa9aiH85F1PC6aujRuC6y-w91FlqNlQpXj5MQ5XZhzZMEHkedmD2KjDd7tv826CJFHELl5VjF56_pHy9r4R1aFQkU415iGM97yeUviUakQznU",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Cheesecakee 28",
+                "uri": "//maps.google.com/maps/contrib/107401577908327727383",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIKjjmy1n0MdLk-Cpu-YXh_5iBU0lgy4UlGpomJ_n-lQ8p00Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJaNHHPZ0Q-NA5SYsaAM6B-Ah6JolyCUn6-zW_-RtiPGjsXBKyeQ58xjo04wbDSKvBXxcvQBdJhHPLYVJiFUM1KCK2gETDDSnepmpXJWenvDTbZ8D_aJB3R0iQzvZK7ELoq1yTcbAs1zzkLw3p_aL7GvH7rpwSYEnFxJ",
+            "widthPx": 3000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Jonet Wicaksana",
+                "uri": "//maps.google.com/maps/contrib/101030757785220977076",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXvkCDCPcNaCTSlGYkIw4HXXC6j8JUY_Tsl5CZD6o10-vq_u-cL=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJYHOM-2zDFZR5Fppqa0Oz66G83_jhnSw47jo8AoxyZjMlpCn_cwirNQ269Ti6hn1nPJuVreuod5k4Kusl-Ps-6KCehAMyPm_nl1abCNTWIFmGS1XcQ5oCBdTPBHkLwhJcp98d3RDOu-NGq6eyop5cHp6kMY0A_ZPMpY",
+            "widthPx": 2252,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Adi Nugroho",
+                "uri": "//maps.google.com/maps/contrib/104702180286938824535",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUp1zneyLSaQuDG3ezdB8Ths5mJhXjoobG0F8N-p67Hnfasnf4=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJbIo_CQBMhuHPGZ9KNK_hM7p0kPXKiHrvgxlolwL4-00wLDXa03uhn68jfTW05ZYt7K4LqcDzcZW3SpJ_bSyzbfYLo6hShVuYRHGU_vyiB2JDt-z5cLIf3pQ3wFvDT66FMKHBttiZUuQxe-K6M8wHHe_4W_2Q4GstkJ",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Ze da",
+                "uri": "//maps.google.com/maps/contrib/111017386267726189355",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXIAIl7Ewp-sf4PD4HMjX72GIKKEj-9hHwebarPPIXPoMeGCi3BJg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJZU8aWc75genn16f-rxN7RCzAfNnnmJybYE17CYGL6q4hjFrw40U7TCWBQvVA4Kb2jZnV9QswfO459-3HdiMSoCKKtIiWwK85iFDwTToNVKzFARz7ZJOrpu6XoEpidKRTJ7BvkavRQUMme4FXZ7czpzrASiLEg8FoFZ",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "alfxmario",
+                "uri": "//maps.google.com/maps/contrib/113184113088448384201",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7fyhYhuZrwY2v6u0YnMXy-Y_bMClkqRjUBWgItWiLVtfQ-oWp=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJU0L98YDxaS4R5ARO18FtY8o/photos/ATplDJby7GRiLeDivIbRP3yy094VYsajBLITWGZO01ByoRR6hVC26aUPFYCE4siKUcK5EoJ_7SARFp8I0ROpdFzsvxnVB1_B_qiqR2ZKKCOl54N5PYlQ6jPyWefw5rNOtF3szwtakMN1Cb6ZFcVUuLzaz1B-ehTruzbD6xPZ",
+            "widthPx": 1200,
+            "heightPx": 1600,
+            "authorAttributions": [
+              {
+                "displayName": "Hendra Kurnia Sastrawan",
+                "uri": "//maps.google.com/maps/contrib/116218703258624823549",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXXqs52sMrIR1HLDXaMAb3Gz6zCy0IQCOTdNObCNvs5aSVAff_r=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Puri Sakti I No.25, RT.2/RW.7, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12410, Indonesia",
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=13219016229792989286",
+        "displayName": {
+          "text": "Burger House Jakarta",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJbI8_vgLk8FG1KeE3tl0LrrdABv03ILYjSxpebI2FETETJZ-4j2Nhw9jCS9E3O2ub3rtGk5NOAL12ExogGnwKKeH5fSmFMwIDCmLKbjOmqe6fU2kkVeNXDRGAh5L6FgfF9v4pDy5f-qzPj56W4GQIoaPbdX6j7kmMLp",
+            "widthPx": 900,
+            "heightPx": 1600,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJYWrWS0A5TGGa8pyHWmSWpYLI6poD4ZXHR2_aHVHRBCzyec70ymsU0rX1YcSDPWl5KT1KcITQ5HxBU7F8gfN8M1UB1Q3xM4jS_atf_Hg2sEc54eofPqg2fCzbXVrrzibk-zpF5nL874GfoD1iMw8nhhsIrbKNtlL6QX",
+            "widthPx": 820,
+            "heightPx": 312,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJZ9WQ24EbSQm_ovGP39jLU_U23wsSktgceil3DqwNtOYa-iW3dVqzuWXQOLWz336jXzXnLWQuo9o5MBF0IVtLAnORp_x915yMpDvPlpO9_rM7g13rsCFSGaf03XafoT8Iz1pne25dXzmWl2qHxqsUm15iJNTVfimhF9",
+            "widthPx": 1080,
+            "heightPx": 1080,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJadKEEAiAASClhrFJoblFmfZG5ze3F0ncrdczUeGnqT-s280bSVW1uo3b8jRVg08rXqHC-0HbCKW8u-7KWWY48tNtxWcocnLUAO--7kUBkKcobG5EviGeq6Kgi7VbGWMYzOPK6ssI9Ea6sprZW-r5b0V8iIWkf0n2Ll",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Athina Sherene",
+                "uri": "//maps.google.com/maps/contrib/118107872698970085757",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIpWEhUfzGlLPQsCxWcOBsB2cRFvLC7OqNpjk2Ohb-LRDqHcA=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJZQhxYNy5xQFHSaiY4IcKPwG-FuRI4MijCj4_K6PBM9FSs1M620MD05rSEHZCgOXqq_D0lxZp5abqVcMoKnYeocNAR5gqGotemYdPdYavn_kyckLH9FXMn1blGEXRjBBhAv-XyrFWRgVr6crYpd7cCIVxza5wKNqGNo",
+            "widthPx": 9248,
+            "heightPx": 6936,
+            "authorAttributions": [
+              {
+                "displayName": "Vabiyana Safira",
+                "uri": "//maps.google.com/maps/contrib/104817793841123536418",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV0NgYk9w2w2g0hclqUo7GyGAfy5HAWxMT21cxYpkdkdBn9vdVl=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJa5Syt7CDGAyEakAf6TsE_GeYAkH4JT_EWoXlmwxgMATTkbcTWvSwytO25Fhb4kPXCMVw5DtNJRvRDVQ1i0tbVAeQTFM7XdliToCXfpHMoZ16-V3eNbRrHw8uc0glwf3xFmepi1uEEQvXVYPtakRKvpM8Ae3lRuVh5f",
+            "widthPx": 3648,
+            "heightPx": 3651,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJYp1KzAwXsZGcE5xu2t9SUVzc3lDKDQy8ar6tY9FmWe7rTlQ7S3qA0sOMSqFJ7Y0G8jw0RrmGlFVXgDbqWomA5nkqTNfcXKS20MX1rXGmnBLdWT3EJk9YyE-NrOuTyCj1XbE6980mCvYwGPSwbz2TyB6yiSvo2Jc8Rs",
+            "widthPx": 1280,
+            "heightPx": 1189,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJZQAETtJ5AWgiCbtdeSFdiqqGeHqTifqc4k-JpPlEuDAowSh0JTcF-VW-qsVR8X5Gft7xQaSfZLCPCbllq3L7iAhjfr8Ch_X5XH-Y3m5vDa94WMEiIMmhrb2t3s0b66MDm3cVlEiHupU9SVPPOMKGzIID-5NIukRuYm",
+            "widthPx": 2048,
+            "heightPx": 1365,
+            "authorAttributions": [
+              {
+                "displayName": "Dito Wiharnanto",
+                "uri": "//maps.google.com/maps/contrib/111992728204899730574",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVs7yo3tMVJWg5tuZ7DFwgxO3kuZUnD9JkGvqMzjFKRjgemcVc=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJYI3bk8MpmG4ls9iEW_Y9OHobyatxIVabURU8wCd3GJdKQ7j2dwTjaS4AWvEF6Mq8naXGZT1-ZzU8ktHL__tWCKDKhGyXqUmhXdMov27mDLQ4moIvgyhcFpiWGjSDDtn1owrjC62ZC6l3A1ZCih_QOgg-xXFPFkyY_D",
+            "widthPx": 1365,
+            "heightPx": 2048,
+            "authorAttributions": [
+              {
+                "displayName": "Dito Wiharnanto",
+                "uri": "//maps.google.com/maps/contrib/111992728204899730574",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVs7yo3tMVJWg5tuZ7DFwgxO3kuZUnD9JkGvqMzjFKRjgemcVc=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJMRtMoEHzaS4RZkDvQDlhc7c/photos/ATplDJZKezcSotFwJf8mpUreLuOJKm7DdHDmZW8BJFUg2yAMYjrx7MOY3dHc8UdNr3qZ3Hynb1DriIN0_pbIwAyWU38Xv24TcVkslno_fIxIGM3X0ap0dwao9UC7zVGHOn_AGgnJ1beVEK4PvVefbR8ZndyKALYoclXR1b1b",
+            "widthPx": 1080,
+            "heightPx": 1920,
+            "authorAttributions": [
+              {
+                "displayName": "Burger House Jakarta",
+                "uri": "//maps.google.com/maps/contrib/111447436311334295832",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXQnmdanzt_svLh5r0zVE4ODvgm_LNpzAa6J8HbC4vp3dhFCAk=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Panglima Polim V No.25B, RT.3/RW.7, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160, Indonesia",
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=5156248982118789537",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "displayName": {
+          "text": "Five Monkeys Burger - Panglima Polim",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJZdGFEOJyA0dZJadDk_KbWEM06BVFF-vj_3yGbaTeqn3XN8hjO_s2t_WYOs6QM-RYFDWG6MFpurr_BZOcAiDe4qc_s4_A-j5Qxv5f7rzJ9tLy6WQIAPk4hot1XnG0841CDp4_KJIbGVbdgH-PkcsSujiA-XqPdBARVT",
+            "widthPx": 4000,
+            "heightPx": 2252,
+            "authorAttributions": [
+              {
+                "displayName": "Yuwana Dewa Brata",
+                "uri": "//maps.google.com/maps/contrib/107736972198711052449",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUwOm66EdIS2w1yKJ0lTatvnLz6HqF3cM83pX9wQTM-3giDjvjYGQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJajjJgs9CbPD8K3nXcGdWte3r-R_1OsiQWGCvOoncIlk4E2nBKMUF0MTku0jjxHmkzQBea3CCvnrIyATkr7Gqs56DWGlqQWcfDN5oCmj0Aa59wamZ6CUHvVJtpB3-FTVA2QcwDvBAZztyZA_SQIIpk-tq-I114KDUWU",
+            "widthPx": 1080,
+            "heightPx": 607,
+            "authorAttributions": [
+              {
+                "displayName": "Five Monkeys Burger - Panglima Polim",
+                "uri": "//maps.google.com/maps/contrib/107969245732588866900",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUSZlTNEt9xN7fFcvFg7k6ciYTeWXP-D6ush2UEGcZemPM1XSU=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJYYMY5BNo_2ip72A-kccIcsEzDSDW2eQVMRWe9Zf0ZRaNKbjYruF0ZPEliqRMWcMOyy0Ui0mePe5IF1d6JUWrf3I0owCSBCMc6rbcLzYEpGAPk251Fkgig5ROTRI9X_3F-gA5079Za1ni3vUmiEpQ93nZLA07KLfrzY",
+            "widthPx": 1600,
+            "heightPx": 1200,
+            "authorAttributions": [
+              {
+                "displayName": "Rembulan Nan Fitri",
+                "uri": "//maps.google.com/maps/contrib/108869660461937173932",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVOst5Mf52lumDM6a0uxFLQ17vZhLC-p5nrfg8YAd4GmElALRicfQ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJZcUqg-X1_VBJTyhjE8LCb6h9ZtyZUtaohJL_mRbzPjw0WtNj5IBQZfDq6q8mxJ_1dXkW9Fw0wLFoxgeNZelM17vhtw_sTHKaApcML6T80If6AqrBd-4XS8MOah-JGHECUtMhE6m3DUiiISDxfbGLKl1efoYWQI3f41",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Najib Habibullah",
+                "uri": "//maps.google.com/maps/contrib/104323335090494265984",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXHh3pvXhQ3rJoCF6Vq6cKOCBetqWAhbRW7eEvrImwhvFChlfLp-g=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJZwqb26SiIipNF2pn0JQ29GIzpZII-wAJHdyiXD0I4RVkLd45C_73rWZU9NregEvN3jTcwVcft8qe5RACCs0QbN2vsYlubA3UIz7gS9LtLLsoviiNTXyddaKsekPx1wcp4RXeQBrvc-niPuYZcOXUepSGpnNdCX1K0q",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Amr Eraky",
+                "uri": "//maps.google.com/maps/contrib/103288331720175904154",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJxTgdokOeMF-gCVJnfJVHLSDx7h0S60ggvNWGTcpTHFNn4Rg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJaO6rL8culY1-k3i8XFTGpKKA6oUNg_vG0GgECrKNmDsLP0XCS8praDgBD9-OjjdB36A4f0BMHV4JQRcAE5Xuudx322NsY36Or9tfbVqARY4-i3ihZpzdQQMdONY_csgBWJ2-rNdFLZhgVMpy1FKhUaNVWwTcIiq1i2",
+            "widthPx": 9000,
+            "heightPx": 12000,
+            "authorAttributions": [
+              {
+                "displayName": "Bara Aji Bramantika",
+                "uri": "//maps.google.com/maps/contrib/107618134922186424532",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVGAu4akbHGkCFk-UHbPHvDK1XmpG1jhLm8zvq5CxW3KAJ_JUTT=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJYay9K2YU3MtEXqQWBYR_OVj8yQMdnm5scDE-fHsijxOY98H-ulBO1bQq1xk_nUP2b6SrradjcykmlnnkXgw5nH89Sg7wq_r_WiHdZqkQd6JOBQi2nMh1AvZu--RK3PKqHrbKsSItLTjxNA2WtQQqY16xXt7TF0nWef",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "cilla wikas",
+                "uri": "//maps.google.com/maps/contrib/115465563623524715516",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLnhIB7VElXIbRJ3yQsTXDZwekv9zizuHyyT5f4_3CeXKvzwg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJaGaNSe3DjsYFA5Vi_ILCJ6afWicV9WkSw3BuEur0eFAqfdLYyTsDJmwxL5B1Yo_6cc-P5IX6gDBaQnBBE5PmAX0JwVMT3L2mrp9LEw95FAMVP47519kYIPjyM7aEhPStNuF3II38fMRzfwnjJqgnTZbs6wfNCzUZvH",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Rachma Citra",
+                "uri": "//maps.google.com/maps/contrib/108017308130862885184",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUxhGxpPdVIKlFeTsNo9kX7-GD4ovL-o7091r75wiX0rPj2C16WFA=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJbYOTFftiiaGDbceC3NrQEuIwWb1UzObjs6HVua7tdYh4lkw-tPDQk5QshuTSy5hAtKq2gsB0qMDdjfiWvoMfeNi8iAhgljbDUIfGt2e9jMf-c6Xh2kpU-jRi9jo3f3ZA0Dre7S5lQajBOBLzSPAijB2yqRoxEhTdYY",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Andhika Perdana",
+                "uri": "//maps.google.com/maps/contrib/102663652560368254892",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVr4PbmOokX9RnY5x6O9PyO3mBtgLh_h6kvpHgCD_3U1gnhaHpe=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJN0GDRcnxaS4RofGoWCGtjkc/photos/ATplDJaZQydBMobbx3-b60s02qZrhFFs0X8XTBJTUkXuuXkS8YoOpbfaJOooEQBokVjIuTIblzZxHGdK6ASEj5HXpAsJUWyAQ6zvV-pT-f1CjkyWE3nSuauvy5AcYhjDS4UYw3P9sHgVXnlI5wBIlmrnatIw5IWpEvGs2cQ3",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "cilla wikas",
+                "uri": "//maps.google.com/maps/contrib/115465563623524715516",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLnhIB7VElXIbRJ3yQsTXDZwekv9zizuHyyT5f4_3CeXKvzwg=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "jl.Pangeran antasari raya PD. Pasar Jaya No 10 No.10 Cilandak Barat, Cipete Utara, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430, Indonesia",
+        "rating": 4.7,
+        "googleMapsUri": "https://maps.google.com/?cid=16084262133354068678",
+        "displayName": {
+          "text": "BURGER BYURGER ANTASARI",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJYfeYv_1DkHyvYz7fe8I__BfyoL9euROOkgfjjDuoMirhIJuMASez0xne-Jcbrb7XiYYgzYmbt7St-02MESWm-OTBav7L4ZLjKQqwNuq9ZpqFmjmU7KsaWGNaB6i7Q9GxEf18x7ld6VQvgq6D61CZ3wKQbW1anwS-46",
+            "widthPx": 1200,
+            "heightPx": 577,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER BYURGER ANTASARI",
+                "uri": "//maps.google.com/maps/contrib/107555403670260138410",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWPnpDauQb8aClKIOpAnUy9-_oge1hvZEaWqBqwambpa82RNvk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJZc5WYEfWrhtf3g7G6MYt7soQdWMLrcrb20KxqPrP07JPT_92aLGAgFTYQI5egAxSBNi-TpXfuWBV99rYbAfmQ-FW0rPn7a-IIc1nbL6bNohL7Ilt17B_l3iDaXOXmd9xwktPcW4_dwNvkUAW9JsVSu4I8VemG8CcHD",
+            "widthPx": 3906,
+            "heightPx": 5859,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER BYURGER ANTASARI",
+                "uri": "//maps.google.com/maps/contrib/107555403670260138410",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWPnpDauQb8aClKIOpAnUy9-_oge1hvZEaWqBqwambpa82RNvk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJYPRqd3czrnoilNyBycSLj5De1aiUsSVMDEVCMo4W7y1c4WXezIQfOkEVKRBK06u3W6Y3ne3f0ppp5SwjbbYPbWSmOVE7WBUAKl4ELbTKzR8aZXosKEMkzGGmaaY0oyS0JAorOEfdlSrjvKB_LwkOmA5uXVQ17uO5Jx",
+            "widthPx": 4080,
+            "heightPx": 3072,
+            "authorAttributions": [
+              {
+                "displayName": "Andrew Kurniadi",
+                "uri": "//maps.google.com/maps/contrib/111305918445182252442",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWr9Fh1-Uis1Mf5dYpTuuUqy0k4ZN97XSt_cVtvqisKsEECoYUUpw=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJbO8e72CDx0BIZiIdKoME-vNG2-hJb66qMBFY0UiWNozUk6w_z4GrfGX3Sre2NSlASNI7aEe6mKzs--HfUOoSsi0xKLSZnNk6Ss10_1knM-T80dYgT-Jricn1lubUqgr24fVFlPfIRPbZ7fApR3vqHl2u4rEw8SJxj6",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Kinanti Desyva",
+                "uri": "//maps.google.com/maps/contrib/111936077655885357486",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVkBnAxoSD34eq_ud3aXMZje-CnJwWf-WCAa7z_PZu6949DfirC=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJYK7Kte00CTgWETlU5nWVaksnXRkvZIfTENkFrxa-sQA-9tjF5xLufqrEcPx8ng8jIcQkSuAjkkJC4j-Jy6VbEzjCHv-khMfC9jo9-P2Ro1NQBVrvK5MBNte9xAEgT1ga555Zv6cQNjYxXAlrNPvoFG0VZ_Tm-u6vbn",
+            "widthPx": 3024,
+            "heightPx": 3780,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER BYURGER ANTASARI",
+                "uri": "//maps.google.com/maps/contrib/107555403670260138410",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWPnpDauQb8aClKIOpAnUy9-_oge1hvZEaWqBqwambpa82RNvk=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJYbCDV1n1kViINUCbM50jq07f5vCqQMnKFoTXYbzvipkIlv9XooSTqrv5ej5R2SSj9JEsMPMGbn5-WCAGsgHVo-encWHqadm2MFZO8sZ72WxJ4iqBVeYgou2W7Hl0DW7tb5Hzx5oNwFiAJKLG61JVBsabq79fUWcY9A",
+            "widthPx": 2048,
+            "heightPx": 1536,
+            "authorAttributions": [
+              {
+                "displayName": "wahyu chandra kesuma",
+                "uri": "//maps.google.com/maps/contrib/111466612594553365944",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVi_7wALEXBt3h_mA1PvTj63FxogEkESOCpyYqXH2WhU6AOWbZy=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJa990GWD1URj6Z6YtPAldI85I5yhk4xKHqUX_kr_H1hTa8C0830Lx5JrwCoz7baVKoDuHAx68_3OZvIf_5eeJAgO72J6mkSc75-N_UETn1Nc5zoPB6OV4Dul9DmPAN73xRLJeR1L5u6uJaUHgPLSjWO880IhcWJUcVE",
+            "widthPx": 3472,
+            "heightPx": 4640,
+            "authorAttributions": [
+              {
+                "displayName": "Kresensia Ektyani",
+                "uri": "//maps.google.com/maps/contrib/111743019223074783942",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK0GdU1eQYffLAZGtc7FrZiKd6n7R3LOAyCRU_twDhf264W8A=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJZ8Rp0XH2T5qeDenc9ybe5vf0_9N9mGdxDXCLL3wb2R303wy3zrpn2tbQ8o5akGy_YVSF6y_yZ1jV2ur4BmOKNUKSEeUjf9TjxMUaZ024sayKpjzAN_YHga22SdHVZVpNDdy5l5AeiehpbRO6xMQQ8WxHwhd8C0oB7K",
+            "widthPx": 2250,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "IP Dwi Purbonegari",
+                "uri": "//maps.google.com/maps/contrib/103177730799176759511",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWqZamKIw76tdmHrCop7PG2E8-4Byqf6nvEFnXDd09km38dh9qr=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJbPVKtijxnHi7g5LZMQrK8vEjusfAdLMM5N6WLheHhjgjN84kEJpkaaSxE8j5c6tyNRq4004TQO5YTOQrW1xNs2HwB3E8Utf6siHcDETs_ww5GYfCxSAFL8LkauwrStZJPC_0nPZctHTSigB3gTkqA2fb4YeFlMGg4r",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Edhi Sebayang",
+                "uri": "//maps.google.com/maps/contrib/105623757686860211249",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUMdv0LXJMvwvjPiZonZXSC-zm1gKYEBby8YImXiyXbJu1s95Vz=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJd_2ZqP_xaS4RxvrVNDHHNt8/photos/ATplDJZUYFHVR4Tri9J8WJOxRQNbIlL5mkwfsazmdHe4sj9T5R7EBb99QXrd3Q995kBpj3W_5AVp_hVqxtc2LwdWPHqEWTCUPKPo06dO74PA85Y-vGK84Wfl8fbWnt8JwoGGHDlZa21PgfHY-_mJblOXSiI9i5vrAADM0Pke",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Muhammad Nabil",
+                "uri": "//maps.google.com/maps/contrib/102049202927871435649",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVo53mwBQbEdJCr__bkzavE-ktGyhAQo_A__-WonYqhxQDfltgR=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Crumble Crew, Jl. Tulodong Bawah No.1A, RT.8/RW.4, Selong, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12110, Indonesia",
+        "rating": 3.8,
+        "googleMapsUri": "https://maps.google.com/?cid=12236528335384384822",
+        "displayName": {
+          "text": "Miller & Noelle Burger, SCBD",
+          "languageCode": "id"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJbIVdROUB6j7XdtFFdUX10VVD4GIw37m_ujHs7IPtXnL8h63qhXXLs3_hwIPpw-UE-bluYeqdiFYtBqMVbQYM51ybGNa32LbgOTCkXBpoCk-xpoRrOeWNtcQ01pkBfZg7d2YfUNWwPEsAyaEfv_XS8HHx_rD7ry1CU0",
+            "widthPx": 2338,
+            "heightPx": 2338,
+            "authorAttributions": [
+              {
+                "displayName": "Miller & Noelle Burger, SCBD",
+                "uri": "//maps.google.com/maps/contrib/114936778734305412098",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK3cntXs21IGwskWEL9wadaNk6vbQR7g1oPdOn8iGdvT121Og=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJYHP-wZHMy42_qNAdRxUbM47VF1ujMFuy8XHwO7TZJTNV7x3_L3npy4JHqFOU1iFmbY3oj8QVbif_IGMquFboYTFKKWOeS-t-zhCFX9JbegMLTqzTeFZziUqEYyK_ohuYMusF0MBtnb62cc_kGhtFGnNuVcnIJM0kNK",
+            "widthPx": 2131,
+            "heightPx": 2131,
+            "authorAttributions": [
+              {
+                "displayName": "Miller & Noelle Burger, SCBD",
+                "uri": "//maps.google.com/maps/contrib/114936778734305412098",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK3cntXs21IGwskWEL9wadaNk6vbQR7g1oPdOn8iGdvT121Og=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJY_sncM7ma81o31JVzDJwYzR6NGgm9b6Aa1-JlhRCrvd7-KYmGGtMD4MgzFycRv03UwmAgvwYJUlXMgAtLEjQgzFl591qtPxyMm75n7M8lzUNyqS6jN2cvoBn2t59P6FZLcIZXpkcQvo4Mh6BezcOJxcgGOQ2rKTNBx",
+            "widthPx": 2268,
+            "heightPx": 2268,
+            "authorAttributions": [
+              {
+                "displayName": "Miller & Noelle Burger, SCBD",
+                "uri": "//maps.google.com/maps/contrib/114936778734305412098",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK3cntXs21IGwskWEL9wadaNk6vbQR7g1oPdOn8iGdvT121Og=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJaRdsZtSxYzQ9oL5y15J6QI89NwGvzIF0JW0oLgdcePngaI9HBmM8nCKJ_onxcs8EriTosFguNNbMunlkJmsGRLZnRYemrZZvRjuEIEuNvXEGVSPV61mHuTr4JUv0h6KP_UikT6AHEeaiyz6c5wohLDEvACyYeXoVHP",
+            "widthPx": 4032,
+            "heightPx": 2268,
+            "authorAttributions": [
+              {
+                "displayName": "Kancil Shasha",
+                "uri": "//maps.google.com/maps/contrib/114718713165934389052",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXGuybAuihTtoRRomCgMIWTMJ-4qgfSkALwdNdJLrpJWCnwkyMf=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJaiA0PHt3cJDGO0KCkpmvNJKtHseHygRB2jYnA-wfxgnqFY-Nf4wUzPfCY7Ymw0XfDS6ZuQlebgwQHvCK2xydxuvsFZZG1DcEtBbKhUIIuHDv5hSP8LLejkaqoplajSzqwgITuX_qc-QUERTwujxhoCcNEAeRBSiWkV",
+            "widthPx": 640,
+            "heightPx": 427,
+            "authorAttributions": [
+              {
+                "displayName": "Kancil Shasha",
+                "uri": "//maps.google.com/maps/contrib/114718713165934389052",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXGuybAuihTtoRRomCgMIWTMJ-4qgfSkALwdNdJLrpJWCnwkyMf=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJbq0NbCnvtfw0TFWDz3K4Ty67zfK7lmiBHwDG1Vs292uomSpuGkb425sog_sGsCIJgBPCAFjtsadmFMthScN6srehH1qziOAtDbNug5uq7wmySdvCjJLKjU48pp_hrBLzZtZKA4V6LvczLrTMr0PrHrVo2pnkcWULYe",
+            "widthPx": 828,
+            "heightPx": 1442,
+            "authorAttributions": [
+              {
+                "displayName": "Miller & Noelle Burger, SCBD",
+                "uri": "//maps.google.com/maps/contrib/114936778734305412098",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK3cntXs21IGwskWEL9wadaNk6vbQR7g1oPdOn8iGdvT121Og=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJYpBhyNcONN84v-YH-a6sLsBMQbNtQfr_M2FpA30F3rrE0-Zjh3S6vBlBEqb7m25KDgRghwriQQmhqRkunh84NaRoHavkGZ3WJlDWX-NEXg56hNLdsYv2QyDVfwLZv5AUWKG2eRa-o86GEhMuir66u8xw66Jk3sl-gg",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Julius Caesar",
+                "uri": "//maps.google.com/maps/contrib/100723309147492661105",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKKo5oA_t6xRgSaGI2-aT3IVpYnPopJf29mNTRi70849PRaNg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJrUaTq1rxaS4RNpWWarDh0Kk/photos/ATplDJadn-L6f5qgz0LwYSJIaY2My9BKdGq55N1b_AykK0EdmtKerBuCkjBM4JwVvpT9_dK0Mc_qSyZaxjdJb61u9sJkayuIxYYFf8PjxHJOOZHS6APX11hFzo-F83RtVwqq6w2_tv6LvRFabulXMmBXlsj-eEQIh_gCXAOd",
+            "widthPx": 2061,
+            "heightPx": 2061,
+            "authorAttributions": [
+              {
+                "displayName": "Miller & Noelle Burger, SCBD",
+                "uri": "//maps.google.com/maps/contrib/114936778734305412098",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocK3cntXs21IGwskWEL9wadaNk6vbQR7g1oPdOn8iGdvT121Og=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Cikatomas 1 No.29, RT.5/RW.1, Rw. Bar., Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12110, Indonesia",
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=11321632096816193829",
+        "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+        "displayName": {
+          "text": "Three Buns Jakarta",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJb4JSYYQhrWnxMoCKh_tBem7dp2_TCc5h6RX9dan-YSIvu4iVkqgyis4GH0UQews4JyQ6Lbg-mZJosUj9JRR2d5vjISdFj4ptMx-p3OD0HlT4y8jEg7ZTzN6zpLrShCAoLkkdhG-YPphV0Osbi5fpKXtd2DnZEg2RPe",
+            "widthPx": 2048,
+            "heightPx": 1366,
+            "authorAttributions": [
+              {
+                "displayName": "Three Buns Jakarta",
+                "uri": "//maps.google.com/maps/contrib/116051689111438919574",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUA5JybNYZ8f3WGqeGruFo2lSWoHkA940nDgK0clUaP42IELkDx=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJaTs3o21VPBClsvhn8kQeyzV88t9hUrbebIibF0hCD8CFEqGXvgDk-FcpggCRdhw9k3I_84dRg_utwfg074ueUwAEc0b7Z11o2QjRwg00lJGPDldrRhOYMJ0kTDOANESPeDy2CK-sbNQ7zPvljR8s5E2mRmaO23qxQp",
+            "widthPx": 2000,
+            "heightPx": 1333,
+            "authorAttributions": [
+              {
+                "displayName": "Three Buns Jakarta",
+                "uri": "//maps.google.com/maps/contrib/116051689111438919574",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUA5JybNYZ8f3WGqeGruFo2lSWoHkA940nDgK0clUaP42IELkDx=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJZPB6YbSW20s0n0MQTKRtYzx_AWKWrYwQsYd4vOPDb6SzW84yF5NddamD7MoVBGLVsfCrkYBOcHAzSSga3aoiF57SOIJi_WWmGXKAzMUxoiuhglGqSaO2KhTrcolEYUQe0mvF9iy9g5Wq2Inu09gWBeVzTB3YaD-j5V",
+            "widthPx": 4000,
+            "heightPx": 2252,
+            "authorAttributions": [
+              {
+                "displayName": "Pete Silva",
+                "uri": "//maps.google.com/maps/contrib/110601731861060645407",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVCwFID17U4f7R8XGJC54WmyM7rc4EylK66r6ePRabuWtqN7ME=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJZ8EXw68q_YX8ldqU7a7EX7hV3sVYpAg3qHAvUUvCckEJiDSJ71CFxLuHDyibzXRM704Ao54B01CYjfx9YJk6Ni5lHpG5A3cTuqqg1I3aolDC21woQyH-F7nvKdTgmqblxow_w_DNSeNArd5EXRTzec3lbiXM3DNmnF",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Hana Kristya",
+                "uri": "//maps.google.com/maps/contrib/106017764565299815772",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX6sTQZL5bstbYSBeUo-5UcmSJStz8PYXJX2WRUrfGfhftkLnNe=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJYLnzQDsgPRLxglD9-uDGuP686zQEr8To2DgiA3CH63q3cXDddbD8J4p_SpvIjM9_t-AFW_ZaH5HBFJxTqSXus379TUiuZRZT9e4ySqNBhbNJ6s3I1M8BqXnZ5QrlNOUfBwTF3nNrrNAo-IvzgwaFa6QbvQBaIvVxU",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Rindu Andita",
+                "uri": "//maps.google.com/maps/contrib/117411925452864014848",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWd-NFJeHTPt1jkw9B0xUEU1JoPAmW5hD0hnJ6aBc0WIdIrMK-H=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJYMl6mOGCfFGTSXQ3Jr2LfxwgK9d3MvT9rl_WZKVoPnwmBlmCXucz8iV1kPEpinnz0XsTVXmQMjxqZdJ9J5svtYYk5nV2H8Mx_6o42pq2g0jO2bCFifEfiSypovwdcShd9S11wnaUuDDwLmWIU_Tmi3D75pQutKmERc",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "mala anarsa",
+                "uri": "//maps.google.com/maps/contrib/114612278712489638900",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVed0qZ5voOFPp40xhjl9LyLwxz53nO8ODNUPsV3OxZPulcpzYCLw=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJaeuxf_FuBQRiyhW9GJvcoxjC90O34JW0nlDt8mXciaUeOnb7FDw-vX4pa4yWRL0NjHSk4Gur2GFicFwWyaUgYIjKWY5MWsYFdkD8s2GZBME2A3p_MRwLgCO7JnQa9s3UqtP1PEkCNIuVYWkD58l2zxJ-nNcBt08Ggt",
+            "widthPx": 4624,
+            "heightPx": 3472,
+            "authorAttributions": [
+              {
+                "displayName": "Tjetje James",
+                "uri": "//maps.google.com/maps/contrib/101923273838189172330",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVhtpJ6g1Dp0_OPbFino66X0CECnN1wv4mNI7T2COT3vK8HIlUMcg=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJZN54NUQAh6_y-ZNae-KYkB4tnYtgVJgRzdVrEDEqR2bf0D7L4GZfFQiHNY9ySXDwh5PZ0B7vowI3xro9qPXHVyAA7lBs778OIP7MmygxBE8WWsVXFdBuAeQFncELACB50p1rdJLbmd-TrhOpxLywS2wIg-a2NxmorU",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Langsung Free",
+                "uri": "//maps.google.com/maps/contrib/102951148029536566320",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWiX2rr-rDzW7M7XyiftRJiLZBf-zS1lC21KwhPQ0cxp9AvOdQO=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJY5mtR3sqFKP9G_R04JgPAq8Hh53FtB60Ge4PX9H4mMvjzXnxkzLe8DvUpSLVfn3mt_BYtwgSqFQDTsqAUp21U-z75AV3PJVHOCKYHQqszxH4c60V-0dDpgr0lhlnO7uJhBA6nAQKcFtnGyd0EbZyjDLi90foc6C9SU",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Dinn Yap Soong",
+                "uri": "//maps.google.com/maps/contrib/118007028363653737491",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXJNfl9BT9S1CaeABSNv4AjcJr-RXdVy0Zcc6w_UvKRnP6uIBLX=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJVVVVVWnxaS4RJeFjUGiEHp0/photos/ATplDJZu-wcP4oB03QaC2H0CqaAl1BnFSzpGWepE7EyekzyHYPIaHY8I2snAUtQQ3MTILXv_CjjShzKT7hrjHum97MpKSS1woUqnWEkeTliowoxLe33aMTfRWEl2qppGGyygU-cVLs0z2m_1rVvaTU79d7Xend5nC191QV7A",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Purwanto Lim",
+                "uri": "//maps.google.com/maps/contrib/109143889787434192679",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV2CP-YtPAygS3KgWQW8Glrao7r3tCUxkkKfvykI1m1FEXZ1p6AEw=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Taman, Jl. Nangka Raya Jl. TB Simatupang No.65, RT.6/RW.5, Tj. Bar., Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia",
+        "rating": 4.7,
+        "googleMapsUri": "https://maps.google.com/?cid=15321052587821722038",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "displayName": {
+          "text": "Burger Bakar Qebul",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJZgOj5ulJmngvRhEdC0fWYwlvEgucphj_xZcCGPTPacGc7t4ILuMKZfWJUmzqruKALmLH_1yvI81UdOcyeQopJyh2UonoclmS3y5RCRYlt-qDhYG5fUFF587fQSsfRfJ05sjjt-tI78LdQJeATyK52ZUzYoNtye3mRL",
+            "widthPx": 4032,
+            "heightPx": 2268,
+            "authorAttributions": [
+              {
+                "displayName": "Sahara Oct",
+                "uri": "//maps.google.com/maps/contrib/100646500643861498671",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjU4b7JnLsS_EEksef371NLcsyGS1LwIB44q03KzojqqTbsCuk4=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJYhgFBoc2oGODpQQ80Bw6YVTpZ2Ls3EAiEsxEfTs186Zu6voF6zcaW7ye2CGG0Hcj5ko2E2daige-MkTxB5_LvbKEphzCnuA9M2MrzfcZKHU1jKhAOjDm3UpaiatP-FY1jlIjhDYYYkORU29lUy-PSMN7NJfIWIxh96",
+            "widthPx": 1080,
+            "heightPx": 719,
+            "authorAttributions": [
+              {
+                "displayName": "hanief al naufal",
+                "uri": "//maps.google.com/maps/contrib/106851124793794389705",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV5QImQ7fAAne1KgJoXMt2xlzlirztcrCUijHCuYPvJmohniINS=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJb7QEdqjNP6VP41YsUGCMjb3VFytEUI3uFHFcp9AfLoubAup9nQFZ_jmDabMqFayYyBf8TK6b1b7WIQxBMz_V4Ne12jTUBAEslMNtQULcrevabNA52p8IRumdkqxyAGFynG0jTXMuITqTtd9nkiMNpCDbv65EoH653G",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "M Ricy Ismail",
+                "uri": "//maps.google.com/maps/contrib/111809464025906901838",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV_ErAmL86hs2MeQTML3OhP-EpCShLbq3DN07BttG4UO5ZGQpEG=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJaIRD_ijbM0dXnVb9HoIx0dAmqxfpJ9qpimmFWOyVUKHCfKnl95HWYs3INj5dvQ8f2nJwpPsfn5kOQeZ5kjZf8vpUwQW28yrwl8UggSF82-ohjgUN4ehjOqPImPuj_jVBiTMCaZ988dCQowpBMycW8r3NtvPaKYfLgd",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Beta Antoni",
+                "uri": "//maps.google.com/maps/contrib/102621021497714257281",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWu3sCBDSlZZeS-SY4ymZsJtQhzm6HotxhkTqkLoJ-PvRvsTSfX=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJapkzRB5ASKuaYOM4SDKnk3154sbKZ2I144t5Rr842zjUn-87YxLCh9CLvFhfjSheMzuscZdE9CrnFQ-NzD0C0ghB3zsTw1QnOOv7IN9xXTIOIg_OSZjzxgxD5PVc0h-G6rRejkcFCAeDkOt4GIEPSXN6vC0g4_8-Wa",
+            "widthPx": 4032,
+            "heightPx": 2268,
+            "authorAttributions": [
+              {
+                "displayName": "Iyang Tubrow",
+                "uri": "//maps.google.com/maps/contrib/106338332020852043264",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVvRZ4JNe9KgTiw5KBwXSV9lT6gGMWilJxl_tGlloPFP9PQhtW2=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJaxJF96t1KRX7SPggBjQ9aihFV5cDRyCBXszqhTN54ikImDzKaoGUHA9RX3IKFa3-M4bzPcgZnQ06TsCibO7-SoiB1PMdyW4ZSuPAXkEHxUYbFp3R4E5JhXs7b3TrsOzmdWfmnV4O85o2zXmu0jysHxV3N6FBah8WzS",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "Alvina Faraditya",
+                "uri": "//maps.google.com/maps/contrib/105208040358231442305",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV5SiJw1UcBAeP5HAa2gmGfUMXw1GMpdDYfyjaX9yp2sD3byt5F=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJYUoxAyq1QVUM-dNmQ9g5c7ZXSQsVaSUc8ntSfsAF8TJu0ZULPgAtiKFH9lbJITtaIpMOCqXqiJzvthR9fBj1OnSJhqtjWf6nSkk6h2v9E4LOpYqoJOT0D71l8bgFBk77PTiY1ukXg6iFIghZGM2QNrefsiPSB4_13J",
+            "widthPx": 3456,
+            "heightPx": 4608,
+            "authorAttributions": [
+              {
+                "displayName": "Jonet Wicaksana",
+                "uri": "//maps.google.com/maps/contrib/101030757785220977076",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXvkCDCPcNaCTSlGYkIw4HXXC6j8JUY_Tsl5CZD6o10-vq_u-cL=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJYRerq7IWhJ58m7h6oTxpE74-uzNRVYIOJsGiUeb7gIDOLUROHouV9rEGCv1tsxeHvFb4vKwTgLAhVbENiYeTJYAlQIlC6VDNhHZRl8Dl-vFllgnQiSwfiQckIXIbHx4q_0ABRltHOP4ee8_6b5LYHTXWDnrgbJIZUp",
+            "widthPx": 3264,
+            "heightPx": 2448,
+            "authorAttributions": [
+              {
+                "displayName": "Arnoto Suryo Susatyo",
+                "uri": "//maps.google.com/maps/contrib/113072115971568335419",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXHyNym8uO08GGjknTCdlRhmPFrYgiTrEn3UyCCAHSrqLRpqcA=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJbWdWThcqDjZVDEIzmOTUTQ8Yuv32meDN8RdLTEpw7-mc33_8x3gelgJ-6YIu2q5fA4pxnZgXa_BJzeNBVPTpYgQLnYQ3S6HaiDyZS4FrxP32i-XXXzvN_OAlGjEv4nWlJShWOiOmQ3s0a3IGM-xE3xVr2hnH6eFUQ",
+            "widthPx": 4032,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "afi candra trinugraha",
+                "uri": "//maps.google.com/maps/contrib/114653384616648947985",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW5Eatrp9Vwfc4GMEoaveJzYniYCsfvhxscJtCyRBV1k7NIy4U=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJ1yyRCIztaS4RtmkxeidQn9Q/photos/ATplDJZGcbNESk9KK-Ojfiq0EuFd_kOVpePu2kIg-HJDT7MYipGrMHUnCE689MtSbWqEmNpUoD3L8YdHlHFI8LjjqGopPotg6CbOZ4KA8WSeDkewyFQ_lzfXzRFX9emrKJWDyToFP5Y3EXfAOwjGevlB7hFn-lu2IksUabA9",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "Risyad Hakim",
+                "uri": "//maps.google.com/maps/contrib/104781511613159494693",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV2T4AsrHF5MxwNtPzsgP2Wot5ndnUSRLvPYL1Ekz1BhH6xIvlsFA=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jalan Bank II No.15 RW.07 Pela Mampang Kecamatan Mampang Prapatan RT 06, RT.6/RW.7, Pela Mampang, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12720, Indonesia",
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=7164851335671253781",
+        "displayName": {
+          "text": "Burger Bank",
+          "languageCode": "id"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJax9jqSu1V5urf24fa27Pd6kSDhVvZ3OXDg0OlEWQaeTiKB7ptJ_pxs5HJS8_m1LBEMCpNxRd5b4TeN-WxJc1ULlhWvP4MC063fxBP9l2l1k2cLMd_bq_NEmd7F1Dj5Lw4wdKaoHc88rgesHhPhCSqVo2gm2U8O2BTT",
+            "widthPx": 3120,
+            "heightPx": 3701,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJbZGjBXTs8IIR8pytEcpj5tXHMFbmiR3vXgiveCwinmoKn-QEpPwipSR2wdVCiyebKJYPvOY7LiUkL_TuJUp52oMhyIaqk_ogB5z3tWHlefp7onNd2WPdmtteYGq4scoWNL0LDIkg0mlWFpwuNTONk0aJWxwSnczfin",
+            "widthPx": 3120,
+            "heightPx": 3120,
+            "authorAttributions": [
+              {
+                "displayName": "Idham Adhari",
+                "uri": "//maps.google.com/maps/contrib/106911098459760159689",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUG9CDZ927ZlmsT3bkS5GFXiV9cJLkl9c-s4yOuXDIolm84THY=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJb5pfX99U6unqq_Grf6SqTAN3l_V708EoCm0qlO4mGBcWzd_JGMPqh34ZMinkUL7SVd8OCv5O306qdWMpHNTYtuyEaAtfJtmSbm9GzMJY_wL0GWcxXcPeFk5xiU2syUBN4_3DzLewUV6m8UJeaHs5XbeeuxgTJOPjbK",
+            "widthPx": 1872,
+            "heightPx": 4160,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJbbAoyN98BhX3ZAVb6Xlanuidfq4GHUugNMwsIXHigfYs7S5qIcaUtuliBPRoQbVSN7pz9iezkHBQjlKUzso6NbpK9PbmSszH2zKW4-xphmV4HYQgXdcoWEhRvhKEK3tYfm16axLMLZYyHlVCJcM0ZV3yJq6856W3u0",
+            "widthPx": 4160,
+            "heightPx": 1872,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJZfnzFKgcoM8GCZDc_Lgqn4bRkvYvbTvZkm2YYFsGYc0nETkX9JS1GDo7MJnwxK_oX5guOd0NTXce1g5Oe6vph2_0KGBV0SUim3f0N3JV6DkkLVmrXldB2jQPUKM7UVcwC6wbxV0uYdl_qWQrYwK0PO0wYPpIXP1e1k",
+            "widthPx": 1872,
+            "heightPx": 4160,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJZG8K40yySUlDf7VnhBWFTWiUK6xw0SqvFrBYgoduwchJhyzogleKq_LF8ZlltGyNJq9w_B8OOqXA2KV34fwJev83mlhRsa2wfnykAAA8jDj8ChORPSHqhbJZbDw69bdbI4h0RsfJnxOhMC8CshK6FQztXvYe8i8zZk",
+            "widthPx": 2160,
+            "heightPx": 3840,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJY5THOkyleNKGWVwnWEYav7cUMGfWShAyrP3MZNsRskNFfVUKAhTcyolyCCW4-AiD-My_ZTXsQWjuvBIUTkiH5j-sk319qtQjkyI0j5sgFVlpoHjbN-IHW7b2l-YDGJbIOWpLp2Q_Qm_-ki1KvElWbQb3rBmp2oy1rA",
+            "widthPx": 561,
+            "heightPx": 561,
+            "authorAttributions": [
+              {
+                "displayName": "galih bachtiar",
+                "uri": "//maps.google.com/maps/contrib/104451123567550851839",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7vi5P87r1iMac43rPSqEXtCyLj7z294XDK5NrZgXRc82kuazG=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJYBFAM133foS62Ty9Iy5SWxVbKsO5Q6PoLs5pmzj_6A8YFsBX4bhNanP5-MvIlKRfaGZsL9en1Jv9bKAhlR_5uVTmAzFWgSlP1lTTZGLuWqx0i9kk8uJ7eDLhqCkvTUF-4KHfM9dRZnx7VYLaOiwNe9qdvZbM_3Q2lV",
+            "widthPx": 4160,
+            "heightPx": 3120,
+            "authorAttributions": [
+              {
+                "displayName": "Idham Adhari",
+                "uri": "//maps.google.com/maps/contrib/106911098459760159689",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUG9CDZ927ZlmsT3bkS5GFXiV9cJLkl9c-s4yOuXDIolm84THY=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJar1IAXGkzwM3obxNg91SMhcdQzYNcQkLKioQkMUhnv1njuLWtjq3It4sdBuyyjKC1oXnsJGqp22MYqlKU5AA-t1k9RLPmkPPs1yW3kwtN8XOP1nDHmns0w6OI-mdw9QvcXbIox1n1040qEKKoRhsWr6kWRnROIvUdN",
+            "widthPx": 1280,
+            "heightPx": 1248,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJsUJuW7nxaS4RFQsrK1SqbmM/photos/ATplDJaY3XSOxjfSHIRug2jMm6tL3wizAZatRrl6H0HlmWZNQ7BHZ75Fq6VtGmMRjoVPkAfhro4bgDRBhwBqxObN7_j6FHru6V_RfitpBRlFBnTVnjDcQ0lLXKMX1KUSAUNn9ogLvvlIyCvIEoEO5c9F7P-BlmZUhj5vUUFM",
+            "widthPx": 1280,
+            "heightPx": 1195,
+            "authorAttributions": [
+              {
+                "displayName": "Burger Bank",
+                "uri": "//maps.google.com/maps/contrib/101237163567957878391",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHeLoOUrZWgUCzrfjCmUZGTxNoMntLud0UG0m3bTxBV_g3Q=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Tebet Barat Dalam X, ( Food Court Container, Jakarta Selatan, Graha Pratama, RT.11/RW.5, Tebet Bar., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810, Indonesia",
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=1246741858910405847",
+        "displayName": {
+          "text": "Western Burger Jakarta",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJJbw1z8j7aS4R1wT3eh1RTRE/photos/ATplDJbdIZ95jT62MhZMBQryRnX8vS8kwbjKyBjwavSYvzLToVcN4RTmg21JlmYjqE1myWGHRIqHfpvwklPsbWRRMk5Ja7lpwXYjljdfpmwd24uqfLstWOwrvVvO8aO5ykzSrscdh1gBPkLccyXgx8q5KbFYhMhFnDvrtWIB",
+            "widthPx": 3096,
+            "heightPx": 4128,
+            "authorAttributions": [
+              {
+                "displayName": "dicky fahlefi",
+                "uri": "//maps.google.com/maps/contrib/105360559304036832361",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUYA70YqtAuUr-QTIXK02EuRAxAy18gk4mZhOk0DCCgauITXYs=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJJbw1z8j7aS4R1wT3eh1RTRE/photos/ATplDJYnHLF_lqkfiYqs3gXUu5QCeaM-swukDSCSJ0h-djOIciovIzU-UjzCI9NbhFaDd-ttxc919t0C8bgVvMSsDtFVFJsH8TICuj5piWzRTmdYMmaegr6_OtnrFbp1kGnmt9M_gjGKfrGkmNMuPe4pIVGF0OnSo727Hdf_",
+            "widthPx": 3120,
+            "heightPx": 4160,
+            "authorAttributions": [
+              {
+                "displayName": "sri ramadhan",
+                "uri": "//maps.google.com/maps/contrib/115866923743402074034",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWKVnx-P3aVq_MbGqIcpM8RvmB0N0la0KmGa4rrThuAjgO3TIYJ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJJbw1z8j7aS4R1wT3eh1RTRE/photos/ATplDJZ1U6oqIZqJftIBkeyOuQNwBYewIWA9A4oywzA4H2gYRxnNiiTL3iy-DtNrS6F0Jj4ZS2I0VJ6Q5Dj2bS-2pSBSm1W2XNdP1B03dRTn9CzPpCUrXKJlgUCB8wjssX7-By-_eJYDYwgdJW4EqyN4hqj_1MRPv4P1tNZ9",
+            "widthPx": 4160,
+            "heightPx": 3120,
+            "authorAttributions": [
+              {
+                "displayName": "sri ramadhan",
+                "uri": "//maps.google.com/maps/contrib/115866923743402074034",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWKVnx-P3aVq_MbGqIcpM8RvmB0N0la0KmGa4rrThuAjgO3TIYJ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJJbw1z8j7aS4R1wT3eh1RTRE/photos/ATplDJaKXv62XRDn4cKabH2F0JfWDdUD1f3JiAwPon0vwmSG4kQ1sOYFaDrLKErfbG-6MVbAYh7K2LdmUyT4nQQZ4OJ5bzKry9cXA73rLHn5L8pzJjObZfv3vuEs3S0UyFDpaaqKRRvEZKb_r3ESk_EK_samr5bTjifheupI",
+            "widthPx": 3120,
+            "heightPx": 4160,
+            "authorAttributions": [
+              {
+                "displayName": "sri ramadhan",
+                "uri": "//maps.google.com/maps/contrib/115866923743402074034",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWKVnx-P3aVq_MbGqIcpM8RvmB0N0la0KmGa4rrThuAjgO3TIYJ=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJJbw1z8j7aS4R1wT3eh1RTRE/photos/ATplDJY8tBU2xpPpruAC5Bc_4cIpz9cOQ3NFrAIAdbm9vE2k5D73I4BCBypbgzLgKKuAX3Bvq15iyaGz2ELPxjafcgTa3aiVNe-oM8WwR7RLcLIOReMPGGpQIQoh77faqLToNAkOzOXoVE_UDQv5lJxYwzP2BZIygTup4hea",
+            "widthPx": 4160,
+            "heightPx": 3120,
+            "authorAttributions": [
+              {
+                "displayName": "sri ramadhan",
+                "uri": "//maps.google.com/maps/contrib/115866923743402074034",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWKVnx-P3aVq_MbGqIcpM8RvmB0N0la0KmGa4rrThuAjgO3TIYJ=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Panglima Polim IX RT.002/007 No. 2 Melawai, Kebayoran Baru., RT.2/RW.7, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160, Indonesia",
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=11542686037435370679",
+        "displayName": {
+          "text": "DBOYS BURGER JOINT",
+          "languageCode": "en"
+        }
+      },
+      {
+        "formattedAddress": "Gg. Istiqomah II Jl. Peninggaran Timur II No.5 009, RT.6/RW.9, Timur II, Kby. Lama Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240, Indonesia",
+        "rating": 4.7,
+        "googleMapsUri": "https://maps.google.com/?cid=8208399317126263367",
+        "displayName": {
+          "text": "BURGER DOWER 2018",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJb0SX2VtW7Z3E-sjsHq94qAKhjXivdFI3oGuQqlvATetnDORwYLuSKZIDLTFufFccG6LcyMDDWcfTAseQkOpEd-beBGl_-fcODw6fcFSHrbbuUPTOY4SBgJpvmseN5xtNzQfNWSbfnuGIfUrXQ4Do8fPmX-bF4YBGOs",
+            "widthPx": 1080,
+            "heightPx": 1080,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJZKKfWRscTr4yGsNg5Y3BKHkLpvGTV9fReA631J57ku7JrwfV_pG2ECnZhLEK6pst8Q-9fd1sffj_LZoWNzBxhRuK9WhM7VcmqMg_C3LVHhLeoc6kywrSIAdOmqODOSBRWYL5h_R4I-y_N5KL4iABDCwDjtEkTEOewB",
+            "widthPx": 1280,
+            "heightPx": 719,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJahkWBn6KBALYRiWg8cxoBpZWMdZL0qnmkojrB-pM03u6EtgmJKWhiAE18FZIfrYDbzspuSIgZ36JUtYlc7DK-Wn8ts_L7qYe-YbhxALZFGIeLQ1gexSmAG3TiKfiZCeRVT4-XzcllmpuLcIiZJPNsPCz2dXaGkSG2n",
+            "widthPx": 512,
+            "heightPx": 384,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJaaC5bQ52iCUFTa-rxHHvj--QoQnOzMkOETwQDZi7hvExOQ1PgeHiXfP9dp62qRnraAFhG2LSZAd_w-E3JCmNv2cleerh1zScdmGb__vp3hIgufnFSdjFK5CM8-_GA8fC8FTtbBcXhHA_GtrFx9NZq156mpzoNzu_ay",
+            "widthPx": 3024,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJZpUsZsTnKtVqPee9NrhYhAoSircWa_Q2ZN3mhx-SAX97CjUP11-kc622N2tWIgwV583CjYAqofa0RszVMwkhw8FKPE2v9GIlIJpnilb5vQpFYeElBKKshpeA9sc2htT3kt0zPMbOgoAfQhr6U85trn-nSfV0MqExq8",
+            "widthPx": 379,
+            "heightPx": 379,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJavl9VHYrfRCnO65X3KTLpABaiOsm4rizECjuuia9vhmlMuLmo39vKbPl1jH1ZFjD9t-1AEpzjXP9eVWVWK9asF-C_1xly7g8Uo9Abv4mLzgXtPcmIaqGba9xUgrDfFJ6q89AxMmJIgci8rSaAVByhPJ7ujpY7dDAv-",
+            "widthPx": 3024,
+            "heightPx": 3024,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJaVFYfvTCvsNy3Tzzt6OrT-oHzgvu2wyjJast5PgARBfokK37fJsUw1v5EZuquRYW8970aPK14Fvm9MbZvM5683EEgf3GYc7fXO2mnRKqV57Q98anz0f886q2mxpvv8NnI9PNQQeixY9u1KGXIag3DVNvpLrECV_IKV",
+            "widthPx": 2272,
+            "heightPx": 2272,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJZhjfl0Uo-O6TJMWG3o8u9Qkzztle-_13pj8WjKFdXKZYgz66dPzaVKUIymik8gdL6jjz33HDdw2JNbpHuqZbrgeWUxlCbTADW4wSAKUBtcpeA6JChiQ65X4NCuZYtSL0tJEv--AiykLsFlgzuE2VTds5OfPSc5rz3h",
+            "widthPx": 960,
+            "heightPx": 960,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJbs6GRXj7_VdB8sA7mGTBWWmy3nsX0s9vaAKQD-mWzY4rMG2_KmWhF1I-3AEWsoBaYw_B1V8v0WBDxMVA6kjQOVI2WS_S0zZjKRMJREr9-ju0nL2Y1pvFxB08DJTNQ_pgpiXIsaafT3HQAoVba4RVi8hgUtfma5da-R",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJS3o6eqnxaS4RR7LeX7AX6nE/photos/ATplDJZ_HfgO45z_ZurQa_MC9iMgQDbMoynOF5qkAnp6nO0Df_mznS9ZqtZn-HA1ytRGuKc1HLg3tfKLGCqosOowAXmzqYfxBN7QT0nFM_AbA7YX6UjO0G3wYcQPg_I1QpAvfVi3keAAJSDPdr_yhdSqeXNjO7HrVWh4Up42",
+            "widthPx": 605,
+            "heightPx": 605,
+            "authorAttributions": [
+              {
+                "displayName": "BURGER DOWER 2018",
+                "uri": "//maps.google.com/maps/contrib/109217330128918148682",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWp7pp2KmvLXdOUjxsUBTkFc2H0H6EQMYmPmPvgVqTIZLLejfh3=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "F2 Lotte Mart Fatmawati, JL. RS. Fatmawati, Gandaria Selatan, Cilandak, 12420 Jakarta Selatan, Indonesia, RT.8/RW.6, South Gandaria, Cilandak, South Jakarta City, Jakarta 12420, Indonesia",
+        "rating": 1,
+        "googleMapsUri": "https://maps.google.com/?cid=8629686946609103897",
+        "displayName": {
+          "text": "Aussy Burger",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJnclgqZXxaS4RGQR2T47Ownc/photos/ATplDJaObDqRVRMefAhSa5ysT6vt7LzedtlqxNzIbadSWRz8TxPh8jHPo821dWD0zQSvjVdn02yjq96J4jYVOufNno3a7gSr6DWYDKHP1ZTnC7baSI5qhRlThHtOlyLaIq93XrU3Iwyb85q2OvF3-RmwWsg8XpdIu0--McZB",
+            "widthPx": 702,
+            "heightPx": 638,
+            "authorAttributions": [
+              {
+                "displayName": "Aussy Burger",
+                "uri": "//maps.google.com/maps/contrib/107652501396774987726",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXUx3vT-LMu5j6vj-BjK5lrkDC4atcrO6yCc-2uHXu2Isev8VY=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Jl. Sidik No.84 7, RT.7/RW.6, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940, Indonesia",
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=3036304928021625593",
+        "displayName": {
+          "text": "Kitchen Ku (Toast & Burger)",
+          "languageCode": "id"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJYW-E7jaAsQUYhzaFnbfPB_UEbqfBPmXFor4-9zWPNeUZnkb_v1PHsJ6kgf_5sRmLcwNVClpSQXSa9f7LkWGifwnXo3d1_12aNJs32d7jQYsytA1twhzEAav5LKDfCzub6QA4Eulmbo9eusSASZrPH3Jx_0pNM_vgYm",
+            "widthPx": 2322,
+            "heightPx": 4128,
+            "authorAttributions": [
+              {
+                "displayName": "KITCHEN KU ( toast & burger)",
+                "uri": "//maps.google.com/maps/contrib/101523676131611263664",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocL_PwQ1B5p8M2kN1nzFbOjaCKNf9rCSZCeThdpdjnz0tM_t_A=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJYF2jWlCjQUGsuT-HX1LkGzMvU2fk7QlWhX65n7F2hpVpzG_Ter5I8HFx5dTe0VgpS3NpbXoCOzoF3QXA6vCN-raKDgadjN83moNxyNZ4TcCPLh1VHJdtL_D7WFF88ll57Rjl6_e29OBbYCyR5KrS1VhvXi7aaiuLv3",
+            "widthPx": 3088,
+            "heightPx": 3088,
+            "authorAttributions": [
+              {
+                "displayName": "KITCHEN KU ( toast & burger)",
+                "uri": "//maps.google.com/maps/contrib/101523676131611263664",
+                "photoUri": "//lh3.googleusercontent.com/a/ACg8ocL_PwQ1B5p8M2kN1nzFbOjaCKNf9rCSZCeThdpdjnz0tM_t_A=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJZ6vwVKW6ubu95dtDdSFtBHfac4nHyt1Ne9oSjDkkAdu3L7yUYMIufiuLqPJbxh8qaM6qmvPYBBm5wpnd-Hg59V7WOPdYCVR4zpTJlzHECeceVWB7oiLgnBr57gmzRoOf_ZWYurwu2PqSQbPU4qXheUDsdY2y3URDXH",
+            "widthPx": 1912,
+            "heightPx": 1794,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJalbSXWiFo6Xc_qZh6llHBlf2IQ8ES6tjON4znscHzijZiYfeIkZV0kjjFuCLtUwWK_SL9fOqve0XAnq0ONZwaFQlg4QW_NBnhhlMpxuck_dxzAONDNwF4kqcoXqTrBlOCezfQS0oni1_R1_0QDca_ONDyhVNKBUZnM",
+            "widthPx": 3260,
+            "heightPx": 2410,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJbARqjnIEVcZmtxyalktiDPeNgUQSHgUQIKtDtbGVLo5V1tlJ7KZeX9GuRnQWwZ9DulmDo0EedRagYBfpjJbowzBQ3SvI-rEUGclD_mw93o1XDuS-Ki-Otk8d7azfnEJLxBbSepuqlrEff9o4a2AXsZ39gd4x2Y9ESR",
+            "widthPx": 1335,
+            "heightPx": 1481,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJaQ3W8CZKqDY1RRuMfDhtDesb-6T3fIr7qBm2sGDvx6XilmttoXY4AtmJ98Zb9mnDaMwQGb0kUkLP5FY1s1dhpLxFHoCHfLHhceOlyaRUkr8lWdIYIA7wccHvUiTQIHBGWT8L1GZBBsNuHL_EHUL1FOlI4S5-8FpZp8",
+            "widthPx": 1672,
+            "heightPx": 2160,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJbhZV36Fs27ip88BNJZpo8JKJLqnmQVHlgEPtERiit6IV6NjnXpRNVo1PUlNHE7dYV7RKIv-vDTz_sh640-WHm9NUiEXWeig5f-QTG235DqEPO21QjaFNwi0NEpid-pxc5SVRbCEsSyiUy4Q5OPuvZRkIk0WkZgF8nK",
+            "widthPx": 2304,
+            "heightPx": 4096,
+            "authorAttributions": [
+              {
+                "displayName": "ALDI",
+                "uri": "//maps.google.com/maps/contrib/109499848131652986650",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVJbmzwSVMPssSPY4T5eLoi6P4cqh8KlCYDJvW09qTf7BEYjws=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJZmgMt9F_LjCH2Y59Swhz-GVGf5vJjLqA9I0VhuOUavBrLh8uqfG1c50nGPO4B4NmYTA2bCuM6561RonZZ_KozhaAViEF12glLnwyFNB5RwnjMMm9--I2GQeV7p88RaOdCpXSXOHaKEVx1W_u4wXgQMU8v081WXk788",
+            "widthPx": 1077,
+            "heightPx": 1038,
+            "authorAttributions": [
+              {
+                "displayName": "Penjahit Dewi",
+                "uri": "//maps.google.com/maps/contrib/103232622134125723054",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXo3EAZAohPsC6p_xH0Xy3vYul9wt9gccDBGONmNIUYLfbdmFJ_=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJbP74otWQEpdC3rFWdPnaNKxzGsDWXxiZKlKjASGXzbfpwJm2M2CMbIMFXmri0ZE3edDSxSwwWLHgsRPAqcqBBw0aPnJs6E3QLKWPT1N2Eq88ohfxzQ8OirhUwFfTuVwBICeB69gF2ekRrtrPSnRj_Emdzs_dSt_n5n",
+            "widthPx": 2160,
+            "heightPx": 2160,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJr7DuhKnzaS4R-Tp_uD4fIyo/photos/ATplDJY6fz0E8GAT-tplhFrC1VDujigM9J1poBAp9I1mQtDdgo7vRHpXY6JUn0-seavwVaBXQKnmsS7rKRrSTgk-Rta_s77bCIbQupMqtuyNOacmGmQbDeNeHiQsXPWJnalyuyEMQ_L1v56wsPvlMC6A3lRBvLMGmTxIHMX1",
+            "widthPx": 2160,
+            "heightPx": 2160,
+            "authorAttributions": [
+              {
+                "displayName": "ianjody Jody",
+                "uri": "//maps.google.com/maps/contrib/104570969459753561533",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX3y2xl66Ci9_h5H1QsnlVN7qbcoBVE2iicr1gdswVop2V1bV5C=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "formattedAddress": "Mall Ambasador, QRGG+FM2, RT.11/RW.4, Kuningan, Karet Kuningan, Setiabudi, South Jakarta City, Jakarta 12940, Indonesia",
+        "rating": 4.7,
+        "googleMapsUri": "https://maps.google.com/?cid=4784210401308013839",
+        "displayName": {
+          "text": "Burger Brambang",
+          "languageCode": "en"
+        },
+        "photos": [
+          {
+            "name": "places/ChIJcUMouhHzaS4RD3WxHAPuZEI/photos/ATplDJYA90dBGpkqTUr0bOeJKQQtNF-b6NhNokYTEDd4FChyk_oEEYBfxAkH0RyJAwgF2A-3Fi1iUS4eXdqOB4uMNVMQLRHKUGpXOR8_E2LJwWPxb3v76O_MYhuZE_4a3HVhQbMsFepNGDtLxkxtodQs3EL8wSdI2taIkLKK",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Aaron Lisandrio",
+                "uri": "//maps.google.com/maps/contrib/101071797387979115507",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW1qK116MFvI0wrbmMnmb_qDtLvxA55Xu216i1Erirbm0kb2iVn=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJcUMouhHzaS4RD3WxHAPuZEI/photos/ATplDJY160YgezOmiR--rLpbIaUYXpGGT_k8WqlUKDlwCjT1fZ9dF8Ez3ezLi-oLi5voElp6deL0dZ0o1LFg2NAXXXOP201wI9hcKuhhIoTOuZ1p43ynj_9xubg2Etm0kVIXSZEjAerflIKCM5pvEr3HBgfH6m0_bPKXeTFj",
+            "widthPx": 3000,
+            "heightPx": 4000,
+            "authorAttributions": [
+              {
+                "displayName": "Aaron Lisandrio",
+                "uri": "//maps.google.com/maps/contrib/101071797387979115507",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW1qK116MFvI0wrbmMnmb_qDtLvxA55Xu216i1Erirbm0kb2iVn=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJcUMouhHzaS4RD3WxHAPuZEI/photos/ATplDJakFL-_dYr07Bo8Kv4lwv-zMzpP2wPC9FinGDnSjv2LMSVl60pFLJPGBj3HVLyVB6bCPIRQE9YHxftITPUbqG4sYb20RBX9KpxR37WgE0IkwIR9_eWhUmV4L8-qdNQhzVu0aMQdALRd6HKbiJ0lO1_NzolbGQtrBeFx",
+            "widthPx": 1836,
+            "heightPx": 3264,
+            "authorAttributions": [
+              {
+                "displayName": "Hans TM",
+                "uri": "//maps.google.com/maps/contrib/104031997201871297705",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7WMOqP8FAY44a3g-fN9m1Nuq97v8SyahqfD-lZ26JjZkp0pa6=s100-p-k-no-mo"
+              }
+            ]
+          },
+          {
+            "name": "places/ChIJcUMouhHzaS4RD3WxHAPuZEI/photos/ATplDJawmxb23_3bCa4CmpEfpThz5DwbZveHATFNQMs1JZWP5efljZGx35G7wAV5RZUytLQGZsHyHPyylxg9Is3R-82OAZqpCr4DTTlGWBd1lfgGxuMDl0mgWwM4WSYnbYCVgftrRIAFzXKcbRzcbngbbv_RuXU9-yBsp769",
+            "widthPx": 4000,
+            "heightPx": 3000,
+            "authorAttributions": [
+              {
+                "displayName": "Aaron Lisandrio",
+                "uri": "//maps.google.com/maps/contrib/101071797387979115507",
+                "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW1qK116MFvI0wrbmMnmb_qDtLvxA55Xu216i1Erirbm0kb2iVn=s100-p-k-no-mo"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

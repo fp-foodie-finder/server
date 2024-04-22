@@ -43,7 +43,7 @@ class Controller {
         password: hashPassword(password),
         preference: "",
       };
-      
+
       const user = await User.createOne(newUser);
       newUser._id = user.insertedId;
 
@@ -68,7 +68,9 @@ class Controller {
       const payload = { id: user._id };
       const token = signToken(payload);
 
-      res.status(200).json({ message: "login success", token, user: {_id: user._id}});
+      res
+        .status(200)
+        .json({ message: "login success", token, user: { _id: user._id } });
     } catch (error) {
       next(error);
     }
@@ -142,7 +144,7 @@ class Controller {
         console.log("from redis");
         const data = JSON.parse(redisPost);
 
-        res.setHeader('Cache-Control', 'no-store');
+        res.setHeader("Cache-Control", "no-store");
         res.status(200).json(data);
       } else {
         const posts = await Post.findAll();
@@ -259,7 +261,7 @@ class Controller {
         address: dataAddress,
         rating: dataRating,
         name: dataName,
-        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=AIzaSyA5TgEC55u00aGOvmvgCS2sDxQwi5JiuYY&maxWidthPx=2880`,
+        imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&maxWidthPx=2880`,
       };
 
       const fav = await Favorite.addFavorite(newFavorite);
