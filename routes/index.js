@@ -18,9 +18,9 @@ router.get("/post", authentication, Controller.listPost);
 
 router.get("/post/:id", authentication, Controller.postByUserId);
 router.patch("/like/:id", authentication, Controller.likePost);
-router.put("/unlike/:id", authentication, Controller.unlikePost);
-router.put("/dislike/:id", authentication, Controller.dislikePost);
-router.put("/undislike/:id", authentication, Controller.undislikePost);
+router.patch("/unlike/:id", authentication, Controller.unlikePost);
+router.patch("/dislike/:id", authentication, Controller.dislikePost);
+router.patch("/undislike/:id", authentication, Controller.undislikePost);
 router.delete("/post/:id", authentication, Controller.deletePost);
 router.post("/favorite/:idx", authentication, Controller.addFavorite);
 router.delete("/favorite/:id", authentication, Controller.deleteFavorite);

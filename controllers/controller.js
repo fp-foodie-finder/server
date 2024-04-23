@@ -173,12 +173,12 @@ class Controller {
   static async unlikePost(req, res, next) {
     try {
       const { id } = req.params;
-      const username = req.user.username;
+      const userId = req.user._id;
 
-      await Post.updateUnlike(id, { like: [username] });
+      await Post.updateUnlike(id, { like: userId });
       await redis.del("posts");
 
-      res.status(200).json({ message: "Post unliked" });
+      res.status(200).json({ message: "Post unliked", userId });
     } catch (error) {
       next(error);
     }
@@ -186,12 +186,12 @@ class Controller {
   static async dislikePost(req, res, next) {
     try {
       const { id } = req.params;
-      const username = req.user.username;
+      const userId = req.user._id;
 
-      await Post.updateOne(id, { dislike: [username] });
+      await Post.updateOne(id, { dislike: userId });
       await redis.del("posts");
 
-      res.status(200).json({ message: "Post disliked" });
+      res.status(200).json({ message: "Post disliked", userId });
     } catch (error) {
       next(error);
     }
@@ -199,12 +199,12 @@ class Controller {
   static async undislikePost(req, res, next) {
     try {
       const { id } = req.params;
-      const username = req.user.username;
+      const userId = req.user._id;
 
-      await Post.updateUnlike(id, { dislike: [username] });
+      await Post.updateUnlike(id, { dislike: userId });
       await redis.del("posts");
 
-      res.status(200).json({ message: "Post undisliked" });
+      res.status(200).json({ message: "Post undisliked", userId });
     } catch (error) {
       next(error);
     }
