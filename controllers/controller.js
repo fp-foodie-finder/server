@@ -264,6 +264,8 @@ class Controller {
         rating: dataRating,
         name: dataName,
         imageUrl: `https://places.googleapis.com/v1/${dataImageUrl}/media?key=${process.env.GOOGLE_MAPS_API}&maxWidthPx=360`,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       };
 
       const fav = await Favorite.addFavorite(newFavorite);

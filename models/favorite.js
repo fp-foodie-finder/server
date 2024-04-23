@@ -14,6 +14,11 @@ class Favorite {
   static async listFavorite(userId) {
     const agg = [
       {
+        $sort: {
+          createdAt: -1,
+        },
+      },
+      {
         $match: {
           userId: new ObjectId(String(userId)),
         },
@@ -34,7 +39,7 @@ class Favorite {
       },
       {
         $project: {
-          "user.password": 0, 
+          "user.password": 0,
         },
       },
     ];
@@ -46,7 +51,7 @@ class Favorite {
 
   static async deleteFavorite(id) {
     const result = await this.favoriteCollection().deleteOne({
-      _id: new ObjectId(String(id))
+      _id: new ObjectId(String(id)),
     });
 
     return result;
