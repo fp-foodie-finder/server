@@ -160,12 +160,12 @@ class Controller {
   static async likePost(req, res, next) {
     try {
       const { id } = req.params;
-      const username = req.user.username;
+      const userId = req.user._id;
 
-      await Post.updateOne(id, { like: [username] });
+      await Post.updateOne(id, { like: userId });
       await redis.del("posts");
 
-      res.status(200).json({ message: "Post liked" });
+      res.status(200).json({ message: "Post liked", userId });
     } catch (error) {
       next(error);
     }
