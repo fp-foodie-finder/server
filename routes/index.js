@@ -24,6 +24,6 @@ router.patch("/undislike/:id", authentication, Controller.undislikePost);
 router.delete("/post/:id", authentication, Controller.deletePost);
 router.post("/favorite/:idx", authentication, Controller.addFavorite);
 router.delete("/favorite/:id", authentication, Controller.deleteFavorite);
-router.put("/user/:id", authentication, Controller.updatePreference);
+router.patch("/user/:id", authentication, Controller.updatePreference);
 
 module.exports = router;
