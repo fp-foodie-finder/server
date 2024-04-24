@@ -4,9 +4,9 @@ const User = require("../models/user");
 const Post = require("../models/post");
 const Favorite = require("../models/favorite");
 const { database } = require("../config/mongo");
-const redis = require("../config/redis");
 const { hashPassword } = require("../helpers/bcrypt");
 const { signToken } = require("../helpers/jwt");
+const redis = require("../config/redis");
 const axios = require("axios");
 
 jest.mock("axios");
@@ -197,7 +197,7 @@ describe("Controllers", () => {
     it("should like a post", async () => {
       const postId = id;
       const response = await request(app)
-        .put(`/like/${postId}`)
+        .patch(`/like/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(200);
       expect(response.body.message).toBe("Post liked");
@@ -206,7 +206,7 @@ describe("Controllers", () => {
     it("like error", async () => {
       const postId = 123;
       const response = await request(app)
-        .put(`/like/${postId}`)
+        .patch(`/like/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(500);
       expect(response.body.message).toBe("Internal Server Error");
@@ -215,7 +215,7 @@ describe("Controllers", () => {
     it("dislike error", async () => {
       const postId = 123;
       const response = await request(app)
-        .put(`/dislike/${postId}`)
+        .patch(`/dislike/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(500);
       expect(response.body.message).toBe("Internal Server Error");
@@ -224,7 +224,7 @@ describe("Controllers", () => {
     it("Server Error", async () => {
       const postId = 123;
       const response = await request(app)
-        .put(`/unlike/${postId}`)
+        .patch(`/unlike/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(500);
       expect(response.body.message).toBe("Internal Server Error");
@@ -233,7 +233,7 @@ describe("Controllers", () => {
     it("should unlike a post", async () => {
       const postId = id;
       const response = await request(app)
-        .put(`/unlike/${postId}`)
+        .patch(`/unlike/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(200);
       expect(response.body.message).toBe("Post unliked");
@@ -242,7 +242,7 @@ describe("Controllers", () => {
     it("should dislike a post", async () => {
       const postId = id;
       const response = await request(app)
-        .put(`/dislike/${postId}`)
+        .patch(`/dislike/${postId}`)
         .set("Authorization", `Bearer ${token}`);
       expect(response.status).toBe(200);
       expect(response.body.message).toBe("Post disliked");
@@ -260,7 +260,7 @@ describe("Controllers", () => {
     it("should update preference", async () => {
       const id = userId;
       const response = await request(app)
-        .put(`/user/${id}`)
+        .patch(`/user/${id}`)
         .set("Authorization", `Bearer ${token}`)
         .send({ preference: "new preference" });
       expect(response.status).toBe(201);
@@ -318,7 +318,7 @@ describe("Controllers", () => {
     it("should update preference", async () => {
       const id = userId;
       const response = await request(app)
-        .put(`/user/${id}`)
+        .patch(`/user/${id}`)
         .set("Authorization", `Bearer ${token}`)
         .send({ preference: "" });
       expect(response.status).toBe(400);
